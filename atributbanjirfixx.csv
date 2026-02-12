@@ -1,0 +1,1150 @@
+﻿No,Tutupan Lahan,Curah Hujan,Kerapatan Sungai,Jarak dari Sungai,Ketinggian Lahan,Kemiringan Lereng,Jenis Tanah,Kelas Bahaya Banjir,Desa/Kelurahan,Luas Km²
+0,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.011098
+1,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000232
+2,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.005002
+3,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.006291
+4,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000354
+5,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.002031
+6,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.003341
+7,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000523
+8,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000694
+9,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000034
+10,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000489
+11,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.001147
+12,Semak Belukar,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000457
+13,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000442
+14,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000884
+15,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000517
+16,Semak Belukar,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000982
+17,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000974
+18,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000058
+19,Semak Belukar,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000275
+20,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.014181
+21,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0
+22,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001794
+23,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000141
+24,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001876
+25,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000186
+26,Semak Belukar,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.001098
+27,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.003477
+28,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000186
+29,Semak Belukar,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000161
+30,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.012419
+31,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.001844
+32,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.00001
+33,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.00265
+34,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000565
+35,Semak Belukar,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000089
+36,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.002412
+37,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000218
+38,Semak Belukar,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000001
+39,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.002462
+40,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000396
+41,Perkebunan/Kebun,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000125
+42,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000055
+43,Permukiman,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.000009
+44,Sawah,2500 - 3000 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000151
+45,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.002055
+46,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.003651
+47,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.001381
+48,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000254
+49,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000903
+50,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.001762
+51,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002428
+52,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.009867
+53,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.003065
+54,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002353
+55,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.023972
+56,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.00256
+57,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001743
+58,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000416
+59,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000381
+60,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000877
+61,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001047
+62,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.003228
+63,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.013277
+64,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.004327
+65,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.001652
+66,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.020159
+67,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000909
+68,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000491
+69,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000083
+70,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000043
+71,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000361
+72,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000878
+73,Semak Belukar,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001104
+74,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.004155
+75,Sawah,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000045
+76,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.002585
+77,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000139
+78,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0
+79,Perkebunan/Kebun,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000083
+80,Permukiman,2500 - 3000 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.00101
+81,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000857
+82,Perkebunan/Kebun,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.001104
+83,Sawah,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.001427
+84,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.003388
+85,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000094
+86,Perkebunan/Kebun,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000403
+87,Sawah,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.004952
+88,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.015272
+89,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000027
+90,Sawah,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.003637
+91,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.006584
+92,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001773
+93,Perkebunan/Kebun,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.003737
+94,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.00208
+95,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000423
+96,Perkebunan/Kebun,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.001481
+97,Sawah,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.003636
+98,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.017016
+99,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000097
+100,Sawah,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002774
+101,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.006771
+102,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.00092
+103,Perkebunan/Kebun,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000994
+104,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000514
+105,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000203
+106,Perkebunan/Kebun,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000816
+107,Sawah,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000213
+108,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.007374
+109,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.0001
+110,Sawah,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000083
+111,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.004775
+112,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001222
+113,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.000059
+114,Tegalan/Ladang,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000016
+115,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.001647
+116,Permukiman,2500 - 3000 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001611
+117,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.001533
+118,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.003122
+119,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.005545
+120,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.008966
+121,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.003226
+122,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.008286
+123,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.004851
+124,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.003573
+125,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.001886
+126,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.003081
+127,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.003138
+128,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.007224
+129,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002861
+130,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.009437
+131,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.004612
+132,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000013
+133,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001471
+134,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000574
+135,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.002286
+136,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000673
+137,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.00506
+138,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001666
+139,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.006651
+140,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000321
+141,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001823
+142,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000038
+143,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000241
+144,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.000066
+145,Tegalan/Ladang,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001389
+146,Perkebunan/Kebun,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000965
+147,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001624
+148,Permukiman,2500 - 3000 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001148
+149,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.025948
+150,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.087375
+151,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.006313
+152,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.00512
+153,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.041585
+154,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.004608
+155,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.033773
+156,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.128096
+157,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.033349
+158,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.005519
+159,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.423565
+160,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.027217
+161,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.071537
+162,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,1.393669
+163,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.868938
+164,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.815012
+165,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.003119
+166,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000071
+167,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000813
+168,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000323
+169,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.003499
+170,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000789
+171,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000566
+172,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.002307
+173,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000679
+174,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000518
+175,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.033591
+176,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.001338
+177,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.004683
+178,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.000908
+179,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.03334
+180,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.007777
+181,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.001483
+182,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.018456
+183,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0
+184,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.001132
+185,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.108998
+186,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.105876
+187,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.099033
+188,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000413
+189,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000069
+190,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000029
+191,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.003158
+192,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.004331
+193,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.037277
+194,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.082899
+195,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.006373
+196,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.00766
+197,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.055206
+198,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.008758
+199,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.054585
+200,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.169239
+201,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.039827
+202,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.006426
+203,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.403137
+204,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.038274
+205,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.07201
+206,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,1.90058
+207,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.946523
+208,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,1.05039
+209,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.000041
+210,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.003093
+211,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.000068
+212,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000208
+213,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.001379
+214,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000264
+215,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.004395
+216,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001432
+217,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.001301
+218,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.000043
+219,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.000474
+220,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.002909
+221,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.002415
+222,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000092
+223,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.037173
+224,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.004145
+225,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.006203
+226,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.001796
+227,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.035582
+228,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.008459
+229,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000915
+230,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.019978
+231,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000051
+232,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.003867
+233,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.141674
+234,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.124895
+235,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.134672
+236,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,>200m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000833
+237,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000204
+238,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000249
+239,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,>200m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000003
+240,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,>200m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.00304
+241,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,>200m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.004283
+242,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.026391
+243,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.046016
+244,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.003717
+245,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.003879
+246,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.026991
+247,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.004498
+248,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.051891
+249,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.081066
+250,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.016964
+251,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.002708
+252,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.214461
+253,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.03072
+254,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.060135
+255,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,1.370009
+256,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.475031
+257,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.658185
+258,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.00036
+259,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.00058
+260,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Caturtunggal,0.000138
+261,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000931
+262,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.002586
+263,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000945
+264,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.005816
+265,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000999
+266,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000439
+267,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.000072
+268,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Caturtunggal,0.002769
+269,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.001462
+270,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.003875
+271,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.00011
+272,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.01909
+273,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.00622
+274,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.008039
+275,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.001894
+276,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.015878
+277,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.004493
+278,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000091
+279,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.010886
+280,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000127
+281,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.004409
+282,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.105513
+283,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.063307
+284,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.086219
+285,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,>200m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001798
+286,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000214
+287,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000141
+288,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,>200m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000062
+289,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,>200m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.001657
+290,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,>200m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001443
+291,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.005566
+292,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.014791
+293,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.004699
+294,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000858
+295,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.003687
+296,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.00039
+297,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.024376
+298,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.011756
+299,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.003267
+300,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000049
+301,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.051058
+302,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.012976
+303,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.010851
+304,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.547296
+305,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.093248
+306,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.152224
+307,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000034
+308,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Caturtunggal,0.000424
+309,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.000145
+310,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000543
+311,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000362
+312,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.007612
+313,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000179
+314,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000003
+315,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Caturtunggal,0.00512
+316,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.002099
+317,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000108
+318,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000284
+319,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.003083
+320,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.003002
+321,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.00013
+322,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.005016
+323,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.00047
+324,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000002
+325,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.002452
+326,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000186
+327,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.046859
+328,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.017685
+329,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.014198
+330,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000069
+331,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000157
+332,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.000961
+333,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000324
+334,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.0017
+335,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.000107
+336,Tegalan/Ladang,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.000303
+337,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.000091
+338,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.00035
+339,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.000142
+340,Bandar Udara,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.00047
+341,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.073857
+342,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.008001
+343,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.0123
+344,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Tinggi,Caturtunggal,0.000951
+345,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.003674
+346,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000004
+347,Perkebunan/Kebun,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.001204
+348,Sawah,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000038
+349,Semak Belukar,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000332
+350,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.008853
+351,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.001835
+352,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.00004
+353,Permukiman,2000 - 2500 mm/tahun,"<0,62 km/km²",0 - 25 m,>200m,>45%,Regosol,Tinggi,Condongcatur,0.000052
+354,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000076
+355,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000458
+356,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000157
+357,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000455
+358,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000278
+359,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000039
+360,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.00173
+361,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.00177
+362,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.00282
+363,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.000367
+364,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.003691
+365,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.002416
+366,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.000341
+367,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000709
+368,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000036
+369,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.005057
+370,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.002946
+371,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.002697
+372,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.0001
+373,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.005742
+374,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002503
+375,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.004909
+376,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.005564
+377,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.004599
+378,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.00499
+379,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.002671
+380,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.034523
+381,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.021884
+382,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.027142
+383,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000138
+384,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.005172
+385,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.038794
+386,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002405
+387,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.00771
+388,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.01199
+389,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.044297
+390,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.016738
+391,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000005
+392,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.014921
+393,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002945
+394,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.228227
+395,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.234333
+396,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.199775
+397,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000194
+398,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000458
+399,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,>200m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000514
+400,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,50 - 100 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000013
+401,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000079
+402,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000209
+403,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000016
+404,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.00005
+405,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000517
+406,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000254
+407,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.002641
+408,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.00267
+409,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002085
+410,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.001272
+411,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000004
+412,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.004269
+413,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.00238
+414,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.000695
+415,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000514
+416,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.006259
+417,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.001587
+418,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.003983
+419,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.00053
+420,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.011385
+421,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.006333
+422,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.007164
+423,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.009154
+424,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.003305
+425,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002957
+426,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.002826
+427,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.039971
+428,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.030671
+429,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.029152
+430,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Caturtunggal,0.00064
+431,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.005548
+432,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.034955
+433,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.004067
+434,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000001
+435,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.010878
+436,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.018878
+437,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.062729
+438,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.024837
+439,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000083
+440,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.011995
+441,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002035
+442,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.2985
+443,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.301346
+444,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.252364
+445,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,>200m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.000509
+446,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,>200m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001902
+447,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,>200m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002009
+448,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,50 - 100 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000109
+449,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,50 - 100 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.00007
+450,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000059
+451,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000119
+452,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.00005
+453,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000002
+454,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000143
+455,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000057
+456,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.001385
+457,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.001251
+458,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001562
+459,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.001095
+460,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000106
+461,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.003732
+462,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Caturtunggal,0.000822
+463,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.002128
+464,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Caturtunggal,0.005029
+465,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.001076
+466,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.003498
+467,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.00002
+468,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000257
+469,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.00827
+470,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.003961
+471,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.007407
+472,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.008199
+473,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.004533
+474,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.002933
+475,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.003924
+476,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Caturtunggal,0.028945
+477,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.013698
+478,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.020313
+479,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.000951
+480,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.003964
+481,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.011027
+482,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.005477
+483,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000179
+484,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.015231
+485,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.015402
+486,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.033883
+487,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.014338
+488,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000287
+489,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.010668
+490,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000652
+491,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.189106
+492,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.180366
+493,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.151522
+494,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,>200m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.000814
+495,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,>200m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.004081
+496,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,>200m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001776
+497,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,50 - 100 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000101
+498,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,50 - 100 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000134
+499,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000001
+500,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.00008
+501,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.000001
+502,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000632
+503,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000309
+504,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000133
+505,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000168
+506,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000414
+507,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.007515
+508,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.00003
+509,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.00405
+510,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000131
+511,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Caturtunggal,0.002125
+512,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Maguwoharjo,0.001021
+513,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.001023
+514,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000959
+515,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001672
+516,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.004904
+517,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000437
+518,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.002911
+519,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001321
+520,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.00239
+521,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.008846
+522,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.002293
+523,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.005294
+524,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.001114
+525,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.002042
+526,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000185
+527,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.00597
+528,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.0004
+529,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.006191
+530,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.001888
+531,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.013089
+532,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001489
+533,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000006
+534,Semak Belukar,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.002034
+535,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.066969
+536,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.049642
+537,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.026621
+538,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000118
+539,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,>200m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.000598
+540,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000049
+541,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001508
+542,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,>200m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000262
+543,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",>250m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.000002
+544,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000784
+545,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000041
+546,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.00002
+547,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000252
+548,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0
+549,Tegalan/Ladang,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.000316
+550,Perkebunan/Kebun,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.003115
+551,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000582
+552,Sawah,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000009
+553,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.004545
+554,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.003637
+555,Permukiman,2000 - 2500 mm/tahun,"0,62 - 1,44 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.00134
+556,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,50 - 100 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.000047
+557,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,50 - 100 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000021
+558,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000028
+559,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000041
+560,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000018
+561,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.002881
+562,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.004196
+563,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.00008
+564,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.0005
+565,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.002188
+566,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.002048
+567,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.007873
+568,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.006946
+569,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.008727
+570,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000643
+571,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.010736
+572,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000058
+573,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.005911
+574,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.002955
+575,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.006976
+576,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.007999
+577,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.001095
+578,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000105
+579,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.045137
+580,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.041135
+581,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.043897
+582,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Rendah,Maguwoharjo,0.000275
+583,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.016755
+584,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.022254
+585,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000447
+586,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.015997
+587,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.001858
+588,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.069703
+589,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.012337
+590,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000282
+591,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.004931
+592,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.004847
+593,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.215214
+594,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.288712
+595,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.265153
+596,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,50 - 100 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000499
+597,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,50 - 100 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000227
+598,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000018
+599,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000063
+600,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000042
+601,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.00222
+602,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.007133
+603,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000055
+604,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.00113
+605,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.004811
+606,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.001562
+607,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000176
+608,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.014398
+609,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.005997
+610,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.008299
+611,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Maguwoharjo,0.000198
+612,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000986
+613,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.011496
+614,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000454
+615,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.015525
+616,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.005064
+617,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.011754
+618,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.005206
+619,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.004063
+620,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000371
+621,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.0772
+622,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.054753
+623,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.058839
+624,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Maguwoharjo,0.000466
+625,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.009471
+626,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.009348
+627,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.00007
+628,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.00131
+629,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.01827
+630,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000185
+631,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.003661
+632,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.098562
+633,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.016305
+634,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.002221
+635,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.007652
+636,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.00517
+637,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.300461
+638,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.348598
+639,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.333222
+640,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,50 - 100 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.001079
+641,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,50 - 100 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000365
+642,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000006
+643,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",>250m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0
+644,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.002354
+645,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.010501
+646,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000057
+647,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.003025
+648,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.007141
+649,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000134
+650,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000035
+651,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Caturtunggal,0.023336
+652,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.005787
+653,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.013387
+654,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.000236
+655,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.001222
+656,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.008263
+657,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000058
+658,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.024063
+659,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.003762
+660,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.018056
+661,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.00142
+662,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.004138
+663,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000246
+664,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.06487
+665,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.036722
+666,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.046534
+667,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.00078
+668,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.004913
+669,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.007635
+670,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000141
+671,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.001659
+672,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.014126
+673,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000002
+674,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.003164
+675,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.059661
+676,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.009397
+677,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.003907
+678,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.006861
+679,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.002108
+680,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.198837
+681,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.199427
+682,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.200094
+683,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,50 - 100 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000008
+684,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,50 - 100 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.001073
+685,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,50 - 100 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000138
+686,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.0031
+687,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.007317
+688,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.00009
+689,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000398
+690,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.001773
+691,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Caturtunggal,0.010295
+692,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Maguwoharjo,0.001365
+693,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Tinggi,Condongcatur,0.005672
+694,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.000202
+695,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000946
+696,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.001651
+697,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.012488
+698,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000044
+699,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.009945
+700,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000157
+701,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.00475
+702,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.019145
+703,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.011969
+704,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.013363
+705,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.000524
+706,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000293
+707,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.002644
+708,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000095
+709,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000513
+710,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.011247
+711,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.001772
+712,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.0247
+713,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001077
+714,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000116
+715,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.00085
+716,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.000031
+717,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.071567
+718,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.063976
+719,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.039788
+720,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000012
+721,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0
+722,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.000209
+723,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000339
+724,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000725
+725,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.005449
+726,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000871
+727,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000304
+728,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.001127
+729,Tegalan/Ladang,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000245
+730,Perkebunan/Kebun,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.002655
+731,Sawah,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.001434
+732,Semak Belukar,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000005
+733,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.004823
+734,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.007275
+735,Permukiman,2000 - 2500 mm/tahun,"1,44 - 2,27 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.002198
+736,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.005665
+737,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000679
+738,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.035692
+739,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.005767
+740,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.006654
+741,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.021905
+742,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.001585
+743,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000362
+744,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000314
+745,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.022275
+746,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.014508
+747,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.0277
+748,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.004137
+749,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.005359
+750,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.001776
+751,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.031074
+752,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002161
+753,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.007025
+754,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.100582
+755,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.007549
+756,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000734
+757,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000076
+758,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.003023
+759,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.098071
+760,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.149737
+761,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.138557
+762,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.001477
+763,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.002047
+764,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000618
+765,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.001237
+766,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.012532
+767,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000095
+768,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.002035
+769,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.048736
+770,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.003409
+771,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000655
+772,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.001137
+773,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000628
+774,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.09006
+775,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.197117
+776,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.141834
+777,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000163
+778,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.006326
+779,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000402
+780,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.061204
+781,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.007361
+782,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.007049
+783,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.042427
+784,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002457
+785,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000007
+786,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000712
+787,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000488
+788,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.043212
+789,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.019396
+790,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.054344
+791,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.002798
+792,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.012529
+793,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.003123
+794,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.00002
+795,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.070229
+796,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.004853
+797,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.010225
+798,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.133293
+799,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.009654
+800,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.001023
+801,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.000156
+802,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.003958
+803,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.15082
+804,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.197324
+805,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.214793
+806,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000715
+807,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.003707
+808,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.001867
+809,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.000738
+810,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.009392
+811,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000044
+812,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.004377
+813,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.057077
+814,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.004525
+815,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Caturtunggal,0.003774
+816,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Maguwoharjo,0.002418
+817,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Condongcatur,0.001514
+818,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.117891
+819,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.223708
+820,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.170039
+821,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.001076
+822,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.003848
+823,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000298
+824,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.079742
+825,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.007456
+826,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.004891
+827,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.036666
+828,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.000637
+829,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.00001
+830,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.001007
+831,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001468
+832,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Caturtunggal,0.050339
+833,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Maguwoharjo,0.016417
+834,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Tinggi,Condongcatur,0.075411
+835,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.001106
+836,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.009475
+837,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001187
+838,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.078899
+839,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.007752
+840,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.012194
+841,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.076808
+842,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.003309
+843,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000401
+844,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.000672
+845,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.002064
+846,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.155866
+847,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.142855
+848,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.194646
+849,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.000105
+850,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.003395
+851,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001029
+852,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.00053
+853,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.012536
+854,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.00037
+855,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.003765
+856,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.034989
+857,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001223
+858,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.006419
+859,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.001333
+860,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.001992
+861,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.076651
+862,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.105517
+863,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.10362
+864,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000387
+865,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.001832
+866,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.000023
+867,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.040294
+868,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.003263
+869,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.003431
+870,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.017388
+871,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000001
+872,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.000009
+873,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000007
+874,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.030093
+875,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.007963
+876,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.037977
+877,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.001377
+878,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001498
+879,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.039448
+880,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.005578
+881,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.007561
+882,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.037157
+883,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000009
+884,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000875
+885,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.002644
+886,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.001012
+887,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.066308
+888,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.051504
+889,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.073283
+890,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.0018
+891,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.000703
+892,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.007599
+893,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.001193
+894,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.001641
+895,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.013326
+896,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000732
+897,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.000443
+898,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.000249
+899,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.029504
+900,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.031213
+901,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.021684
+902,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000017
+903,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000733
+904,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000379
+905,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.000404
+906,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.002608
+907,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000001
+908,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.00045
+909,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.001161
+910,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000199
+911,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.002167
+912,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.000224
+913,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000087
+914,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.002391
+915,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.000047
+916,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.001532
+917,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.00771
+918,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.000177
+919,Semak Belukar,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.002799
+920,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.00141
+921,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000047
+922,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.005183
+923,Danau/Waduk/Embung,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.000001
+924,Tegalan/Ladang,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000377
+925,Perkebunan/Kebun,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.002047
+926,Sawah,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.003383
+927,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.002138
+928,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.002853
+929,Permukiman,2000 - 2500 mm/tahun,"2,27 - 3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000587
+930,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000877
+931,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.001664
+932,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000786
+933,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.004216
+934,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.034397
+935,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.005059
+936,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.013578
+937,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.04693
+938,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.002493
+939,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000615
+940,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.001045
+941,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002616
+942,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.018113
+943,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.050816
+944,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.049563
+945,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Rendah,Maguwoharjo,0.000081
+946,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,0 - 8 %,Regosol,Rendah,Condongcatur,0.000891
+947,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.002723
+948,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.009283
+949,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.002733
+950,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.001851
+951,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.024557
+952,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.008735
+953,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.037096
+954,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.12152
+955,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.016175
+956,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.002097
+957,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.001385
+958,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.004053
+959,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Caturtunggal,0.059122
+960,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Maguwoharjo,0.218754
+961,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.157188
+962,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Rendah,Condongcatur,0.000841
+963,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.000925
+964,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000004
+965,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.000896
+966,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.004223
+967,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.00218
+968,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.002832
+969,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.073751
+970,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.000774
+971,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.005673
+972,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.003106
+973,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Caturtunggal,0.039799
+974,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Maguwoharjo,0.133781
+975,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Sedang,Condongcatur,0.100423
+976,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.002208
+977,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.002706
+978,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.001327
+979,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.006035
+980,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.04709
+981,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.007692
+982,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.0229
+983,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.071519
+984,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.009046
+985,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.001078
+986,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.001282
+987,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.002482
+988,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Caturtunggal,0.029606
+989,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Maguwoharjo,0.074947
+990,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Tinggi,Condongcatur,0.092221
+991,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Maguwoharjo,0.000381
+992,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Condongcatur,0.002983
+993,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.005751
+994,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.010171
+995,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.003461
+996,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.006225
+997,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.029302
+998,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.013558
+999,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.048841
+1000,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.144692
+1001,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.020521
+1002,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.004606
+1003,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.002701
+1004,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.005479
+1005,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.106473
+1006,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.271993
+1007,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.217676
+1008,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Condongcatur,0.002659
+1009,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.002425
+1010,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.000651
+1011,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.00089
+1012,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.005896
+1013,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.003661
+1014,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.002625
+1015,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.070103
+1016,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.001558
+1017,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Caturtunggal,0.010547
+1018,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Maguwoharjo,0.005196
+1019,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Rendah,Condongcatur,0.000005
+1020,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Caturtunggal,0.053355
+1021,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Maguwoharjo,0.171831
+1022,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,8 - 15 %,Regosol,Sedang,Condongcatur,0.101957
+1023,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.005151
+1024,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.001035
+1025,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.002288
+1026,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.007738
+1027,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.052547
+1028,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.007011
+1029,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.020202
+1030,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.052651
+1031,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.005187
+1032,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.00014
+1033,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.001206
+1034,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.002604
+1035,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.050713
+1036,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.05837
+1037,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.086702
+1038,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.001313
+1039,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.001175
+1040,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.004314
+1041,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.006702
+1042,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.005237
+1043,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.008473
+1044,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.030529
+1045,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.007797
+1046,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.040851
+1047,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.089861
+1048,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.007153
+1049,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.00492
+1050,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.004667
+1051,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.00386
+1052,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.11504
+1053,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.176272
+1054,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.171895
+1055,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.000069
+1056,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.003835
+1057,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.000669
+1058,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.000174
+1059,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.008415
+1060,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.007558
+1061,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.001507
+1062,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.021708
+1063,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.001068
+1064,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Caturtunggal,0.006902
+1065,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Maguwoharjo,0.005604
+1066,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Rendah,Condongcatur,0.000326
+1067,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Caturtunggal,0.035204
+1068,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Maguwoharjo,0.105689
+1069,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,15 - 25 %,Regosol,Sedang,Condongcatur,0.065178
+1070,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.003221
+1071,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.00286
+1072,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.004947
+1073,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.007895
+1074,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.042591
+1075,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.004537
+1076,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.020015
+1077,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.023037
+1078,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.001716
+1079,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.000011
+1080,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.000968
+1081,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.001864
+1082,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.051466
+1083,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.017145
+1084,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.044113
+1085,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.00164
+1086,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.003006
+1087,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.00392
+1088,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.011717
+1089,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000951
+1090,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.005852
+1091,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.050191
+1092,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.004057
+1093,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.024011
+1094,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.040252
+1095,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.000123
+1096,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.005541
+1097,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.017227
+1098,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.000199
+1099,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.058945
+1100,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.04519
+1101,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.063995
+1102,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.000083
+1103,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.000009
+1104,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.003623
+1105,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.01533
+1106,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.007746
+1107,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.001635
+1108,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.003666
+1109,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Caturtunggal,0.003484
+1110,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Maguwoharjo,0.003525
+1111,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Rendah,Condongcatur,0.000047
+1112,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Caturtunggal,0.014566
+1113,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Maguwoharjo,0.027103
+1114,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m, 25 - 45 %,Regosol,Sedang,Condongcatur,0.010813
+1115,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.004079
+1116,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.001528
+1117,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.000172
+1118,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.015973
+1119,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.000586
+1120,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.002384
+1121,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.001565
+1122,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.000429
+1123,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.012463
+1124,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.000848
+1125,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.015959
+1126,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.002613
+1127,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",0 - 25 m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.002982
+1128,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.000338
+1129,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.005834
+1130,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Condongcatur,0.000074
+1131,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.00014
+1132,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.032314
+1133,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.007469
+1134,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.007508
+1135,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.003647
+1136,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.002524
+1137,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.004328
+1138,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.001935
+1139,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Sedang,Condongcatur,0.006493
+1140,Danau/Waduk/Embung,2000 - 2500 mm/tahun,">3,10 km/km²",25 - 100 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000776
+1141,Tegalan/Ladang,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000785
+1142,Perkebunan/Kebun,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.001752
+1143,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.000261
+1144,Sawah,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.000202
+1145,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Caturtunggal,0.001457
+1146,Semak Belukar,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Rendah,Maguwoharjo,0.00014
+1147,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Caturtunggal,0.002536
+1148,Permukiman,2000 - 2500 mm/tahun,">3,10 km/km²",100 - 250 m,100 - 200 m,>45%,Regosol,Sedang,Maguwoharjo,0.003154
