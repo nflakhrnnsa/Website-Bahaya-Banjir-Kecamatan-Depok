@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Beranda Peta Bahaya Banjir Kecamatan Depok, Kabupaten Sleman</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  /* =========================
+     PALET & DASAR LAYOUT
+     ========================= */
+  :root{
+  --bg-main:#FBF4E9;
+  --bg-soft:#F5EBDD;
+
+  --primary:#2E2A72;       /* ungu tua */
+  --accent:#4F7DF3;        /* biru */
+  --accent-soft:#9DB7FF;
+
+  --highlight:#F4A261;     /* oranye lembut */
+
+  --text-main:#1F1F1F;
+  --text-muted:#6B6B6B;
+
+  --border-soft:rgba(0,0,0,.08);
+  --shadow-soft:0 10px 30px rgba(0,0,0,.08);
+  --accent-2:#66e0ff;
+--navy-900:#0f172a;
+--muted:#6B6B6B;
+--radius-xl:18px;
+--shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+  *{box-sizing:border-box}
+  html,body{
+  margin:0;
+  background:var(--bg-main);
+  color:var(--text-main);
+  font-family:'Poppins', system-ui, sans-serif;
+  line-height:1.6;
+}
+  a{color:inherit; text-decoration:none}
+  img{display:block; max-width:100%; height:auto}
+
+  /* Preloader overlay */
+#preloader {
+  position: fixed;
+  inset: 0;
+  background: var(--navy-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5000;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+/* Konten loader */
+.loader-content {
+  text-align: center;
+  position: relative;
+}
+
+.loader-logo {
+  height: 80px;
+  margin-bottom: 20px;
+  animation: float 2s ease-in-out infinite;
+}
+
+
+/* Hidden state setelah loading */
+#preloader.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+  /* =========================
+   HEADER STICKY
+   ========================= */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3000;
+  background: transparent;
+  border-bottom: none;
+  transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+.header.scrolled{
+  background: rgba(251,244,233,0.92);
+  backdrop-filter: blur(8px) saturate(1.1);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: center;   /* ⬅️ INI BIKIN MENU TENGAH */
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand img {
+  height: clamp(22px, 3.5vw, 36px); /* fleksibel dari HP ke laptop */
+  width: auto;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,.35));
+}
+.menu {
+  display: flex;
+  flex-wrap: nowrap; /* tetap sejajar */
+  justify-self: center;
+  align-items: center;
+  gap: 6px;
+}
+.menu .item {
+  position: relative;
+  padding: 6px 10px;
+  font-family: 'Poppins';
+  font-weight: 500;      /* JANGAN lebih */
+  font-size: 14px;
+  letter-spacing: 0;     /* Poppins gak perlu spacing */
+  text-transform: none;
+  background: transparent;
+  border: none;
+  color:var(--primary);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.menu .item::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transform: translateX(-50%);
+  transition: width 0.25s ease;
+}
+
+.menu .item:hover {
+   color:var(--accent);
+}
+
+.menu .item:hover::after {
+  width: 70%;
+}
+.menu .item,
+.menu .item:hover,
+.menu .item:focus,
+.menu .item:active {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+/* =========================
+   RESPONSIVE HEADER FIX
+   ========================= */
+@media (max-width: 768px) {
+  .nav {
+    padding: 8px 12px;
+  }
+  .menu {
+    gap: 4px;
+  }
+  .menu .item {
+    font-size: clamp(10px, 2vw, 13px);
+    padding: 4px 10px;
+  }
+ .hero-inner{
+    flex-direction:column;
+    align-items:flex-start;
+    padding:90px 20px 50px;
+  }
+
+  .hero-text{
+    margin-left:0;     /* RESET OFFSET DESKTOP */
+    max-width:100%;
+  }
+
+  .hero-text h1{
+    font-size:clamp(50px, 9vw, 46px);
+    line-height:1.05;
+  }
+
+  .hero .cta{
+    margin:28px 0 0 0;
+    align-self:flex-start;
+  }
+}
+@media (max-width: 480px) {
+  .brand img {
+    height: clamp(18px, 7vw, 26px);
+  }
+  .menu {
+    gap: 3px;
+  }
+  .menu .item {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+}
+ /* Dropdown PETA */
+.dropdown{
+  position:absolute;
+  right:-150px;
+  top:calc(100% + 10px);
+
+  background: rgba(251, 244, 233, 0.97); /* LEBIH SOLID */
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius:14px;
+
+  padding:8px;
+  width:220px;
+
+  box-shadow: 0 14px 32px rgba(0,0,0,.14);
+  backdrop-filter: blur(6px) saturate(1.05);
+
+  display:none;
+  z-index:2000;
+}
+
+.dropdown.show{
+  display:block;
+  animation:pop .16s ease-out;
+}
+.dropdown a{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:12px 14px;
+  border-radius:10px;
+
+  color:#1f2933;        /* LEBIH KONTRAS */
+  font-weight:500;
+  text-decoration:none;
+
+  transition:background .15s ease, color .15s ease;
+}
+
+.dropdown a:hover{
+  background: rgba(0,0,0,.06); /* HOVER LEMBUT */
+  color:#000000;
+}
+@keyframes pop{
+  from{
+    transform:translateY(-6px);
+    opacity:0;
+  }
+  to{
+    transform:none;
+    opacity:1;
+  }
+}
+  /* =========================
+     HERO
+     ========================= */
+  .hero{
+  position:relative;
+  min-height:52vh;
+  display:flex;
+  align-items:center;
+   background:
+    linear-gradient(
+      180deg,
+      rgba(251,244,233,.25),
+      rgba(251,244,233,.55)
+    ),
+    url('FOTOBANJIR.jpeg') center/cover no-repeat;
+}
+
+.hero-inner{
+  max-width:none;        /* LEPAS DARI TENGAH */
+  margin:0;              /* HAPUS auto center */
+  padding:90px 6vw 70px; /* ATAS & BAWAH DIPENDEKIN */
+  display:flex;
+  justify-content:flex-start;
+}
+
+.hero-content{
+   max-width:640px;
+  text-align:left;
+  margin:0;              /* jangan ada offset aneh */
+}
+
+.hero h1{
+   font-size:clamp(52px, 6.5vw, 92px);
+  line-height:0.98;                 /* SUPER RAPAT */
+  font-weight:900;                  /* PALING TEBAL */
+  letter-spacing:-0.02em;           /* khas judul besar */
+  margin:0 0 14px 0;
+  font-family:'Poppins', sans-serif;
+  text-shadow:0 6px 28px rgba(0,0,0,.45);
+  color:var(--primary);
+}
+
+.hero-sub{
+   margin:0 0 26px 0;
+  font-size:16px;
+  font-weight:700;                  /* TEBAL */
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  font-family:'Poppins', sans-serif;
+  text-shadow:0 4px 18px rgba(0,0,0,.35);
+  color:var(--primary);
+}
+
+.hero-sub span{
+  display:block;
+  margin-top:4px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  font-size:13px;
+  font-family:'Poppins', sans-serif;
+}
+
+.hero .cta{
+  margin-top:18px;
+  display:inline-flex;
+  align-items:center;
+  padding:14px 30px;
+  border-radius:999px;
+  background:var(--primary);
+  color:#fff;
+  font-weight:500;
+  box-shadow:0 10px 24px rgba(0,0,0,.15);
+  font-family:'Poppins', sans-serif;
+}
+
+.hero .cta:hover{
+  transform:translateY(-2px);
+  background:var(--accent);
+  box-shadow:0 14px 32px rgba(0,0,0,.16);
+}
+
+.hero .cta:active{
+  transform:translateY(0);
+}
+
+  /* animasi text reveal */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero h1{
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.hero-sub{
+  opacity: 0; /* WAJIB */
+  animation: fadeUp 0.9s ease-out forwards;
+  animation-delay: 0.45s;
+}
+/* Pulse lembut */
+.hero .cta {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .cta::before {
+  content: "";
+  position: absolute;
+  top: -2px; left: -2px; right: -2px; bottom: -2px;
+  border-radius: 999px;
+  border: 2px solid var(--accent-2);
+  opacity: 0.6;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); opacity: 0.6; }
+  50%  { transform: scale(1.15); opacity: 0; }
+  100% { transform: scale(1); opacity: 0.6; }
+}
+
+/* Cahaya border bergerak */
+.hero .cta::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  padding: 2px;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.8), transparent);
+  background-size: 200% 100%;
+  animation: shine 3s linear infinite;
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+@keyframes shine {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Scroll Progress Bar */
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;                /* ketebalan */
+  background: linear-gradient(90deg, #66e0ff, #0ea5e9);
+  width: 0%;
+  z-index: 3000;              /* selalu di atas header */
+  box-shadow: 0 0 10px rgba(14,165,233,0.8);
+  transition: width 0.1s ease;
+}
+
+  /* =========================
+     SECTIONS WRAPPER
+     ========================= */
+  .section{padding:40px 16px}
+  .container{max-width:1200px; margin:0 auto}
+
+  /* Judul section */
+  .title{
+    margin:12px 0 8px 0;
+    padding:16px 22px;
+    border:1px solid rgba(255,255,255,.06);
+    border-radius:var(--radius-xl);
+    box-shadow:var(--shadow);
+    text-align:center;
+    font-family:'Poppins', sans-serif;
+  }
+  .title h2{
+    margin:0; font-size: clamp(22px, 3.2vw, 36px); letter-spacing:.6px; font-weight:900;
+  }
+  .title p{
+    margin:6px 0 0 0; color:var(--muted); font-weight:600
+  }
+
+  /* =========================
+     GRID KARTU PETA (8)
+     ========================= */
+  .grid1{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 22px;
+}
+
+.grid1 .card{
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 26px;
+  align-items: center;
+
+  padding: 0; /* 🔥 hapus padding biar thumb nempel */
+  border-radius: 22px;
+  background: linear-gradient(135deg, #f3efe9, #b1a69a);
+  color: #000000;
+  box-shadow: 0 18px 42px rgba(0,0,0,.35);
+}
+
+.grid1 .thumb{
+  aspect-ratio: 16/9;
+  border-radius: 22px 0 0 22px; /* ikut bentuk card */
+  overflow: hidden;
+  background: #f3efe9;
+  padding: 18px; /* jarak DALAM, bukan luar */
+}
+
+.grid1 .thumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* ✅ gambar utuh */
+  background: #f3efe9;   /* isi ruang kosong biar gak belang */
+}
+
+.grid1 .card-body{
+  padding: 6px 6px 6px 0;
+}
+
+.grid1 h3{
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 900;
+  margin-bottom: 12px;
+  letter-spacing: .3px;
+}
+
+.grid1 .pill{
+  margin-top: 14px;
+  padding: 12px 22px;
+
+  background: rgba(11,60,93,0.04); /* HALUS, BUKAN KOSONG */
+  color: #0b3c5d;
+
+  border: 1.5px solid rgba(11,60,93,0.6);
+  border-radius: 999px;
+
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .25px;
+
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,.4), /* inner clean */
+    0 6px 14px rgba(11,60,93,.12);       /* depth ringan */
+
+  transition: all .25s ease;
+}
+.grid1 .pill:hover{
+  background: #2E2A72;
+  color: #ffffff;
+  transform: translateY(-1.5px);
+  box-shadow: 0 10px 24px #2E2A72;
+}
+    .grid{
+    display:grid; gap:18px; margin-top:18px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (max-width:1000px){ .grid{grid-template-columns: repeat(3,1fr)} }
+  @media (max-width:720px){ .grid{grid-template-columns: repeat(2,1fr)} }
+  @media (max-width:480px){ .grid{grid-template-columns: 1fr} }
+  @media (max-width: 768px){
+  .grid1 .card{
+    grid-template-columns: 1fr; /* stack */
+  }
+
+  .grid1 .thumb{
+  aspect-ratio: 4/3;  /* lebih cocok buat layout peta */
+  border-radius: 16px;
+  overflow: hidden;
+  background: #f3efe9;
+}
+
+  .grid1 h3{
+    font-size: 20px;
+  }
+}
+  .card{
+    background: linear-gradient(
+    180deg,
+    #f3efe9,
+    #e2d7cb);
+    border:1px solid rgba(0,0,0,.06);
+    color: #1f2933;
+    border-radius:18px; overflow:hidden;
+    box-shadow: 0 12px 28px rgba(0,0,0,.18);
+    transform:translateY(22px); opacity:0;
+    transition:transform .6s cubic-bezier(.2,.75,.2,1), opacity .6s ease, box-shadow .2s ease, translate .2s ease;
+  }
+  .card.inview{ transform:translateY(0); opacity:1 }
+  .card:hover{ box-shadow:0 14px 30px rgba(0,0,0,.33) }
+  .grid .card h3{
+  color: var(--primary);
+}
+
+  .thumb{
+    aspect-ratio: 16/11;
+    background: #efe7dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+  .thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* jaga proporsi gambar */
+    border-bottom: 1px solid rgba(255,255,255,.06);
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,.35));
+}
+  .card-body{padding:12px 12px 14px 12px}
+  .card h3{
+    margin:6px 6px 10px 6px; font-size:16px; font-weight:800; letter-spacing:.3px;
+  }
+  .pill{
+    margin:0 6px 4px 6px; display:inline-flex; align-items:center; gap:8px;
+    padding:9px 14px; border-radius:999px;
+    background: rgba(46,42,114,0.05);
+    border: 1.5px solid rgba(46,42,114,.6);
+    color: var(--primary);
+    font-weight:800; color:var(--muted); cursor:pointer;
+    transition:transform .15s ease, background .2s ease, box-shadow .15s ease;
+  }
+  .pill:hover{ transform:translateY(-1px); background: var(--primary);
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(46,42,114,.35);}
+  /* Hover interaktif kartu */
+.card {
+  perspective: 1000px; /* aktifkan perspektif 3D */
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02) rotateX(4deg) rotateY(-4deg);
+  box-shadow: 0 18px 40px rgba(0,0,0,.45);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+/* TOOL BUTTONS */
+.modal-tools {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  display: flex;
+  gap: 12px;
+}
+.tool-btn {
+  background: #ffffff;
+  color: #0b3c5d;
+  border: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35);
+}
+.tool-btn:hover { transform: scale(1.1); }
+
+@media(max-width:768px){
+  .hero{
+    align-items:flex-start;
+  }
+
+  .hero-inner{
+    padding:90px 20px 60px;
+     display:flex;
+  justify-content:flex-start;
+  }
+
+  .hero h1{
+    font-size:clamp(36px, 10vw, 52px);
+  }
+}
+
+  /* =========================
+     FAQ / ACCORDION
+     ========================= */
+  .faq-wrap{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+  .faq{
+  background: linear-gradient(
+    180deg,
+    #F5EBDD,
+    #EFE4D6
+  );
+  border: 1px solid rgba(46,42,114,.14);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(46,42,114,.12);
+}
+  .faq-sum{
+  margin:0;
+  padding:18px 20px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  cursor:pointer;
+
+  font-weight:800;
+  letter-spacing:.2px;
+  color: var(--primary);
+
+  background: rgba(255,255,255,.4);
+}
+
+.faq-sum .arrow{
+  transition: transform .25s ease;
+  font-size: 14px;
+  opacity: .7;
+}
+
+  .faq.open .arrow{
+  transform: rotate(180deg);
+}
+
+  .faq-content{
+  display:none;
+  padding:14px 20px 18px 20px;
+  background: rgba(255,255,255,.65);
+  color: var(--text-muted);
+  font-weight:600;
+  line-height:1.7;
+}
+  .faq.open .faq-content{display:block}
+
+  /* =========================
+     KONTAK GRID
+     ========================= */
+  .contact-grid{
+    display:grid; gap:16px; margin-top:16px;
+    grid-template-columns: repeat(3,1fr);
+  }
+  @media (max-width:900px){ .contact-grid{grid-template-columns: repeat(2,1fr)} }
+  @media (max-width:560px){ .contact-grid{grid-template-columns: 1fr} }
+
+  .contact{
+  background: transparent;      /* HILANG */
+  border: none;                 /* HILANG */
+  border-radius: 0;
+  padding: 0;                   /* RAPET */
+  box-shadow: none;
+
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+  .contact h4{
+  margin-bottom:6px;
+}
+
+.contact-item{
+  padding:6px 0;
+}
+ /* =========================
+   FOOTER FINAL
+   ========================= */
+.footer{
+  margin-top:40px;
+  padding:22px 16px 12px;
+  background: linear-gradient(180deg, #F5EBDD, #EFE4D6);
+  border-top: 2px solid rgba(46,42,114,.15);
+}
+
+.footer-inner{
+  max-width:1300px;
+  margin:0;
+  display:grid;
+  grid-template-columns: 0.8fr 0.6fr 1.2fr;
+  gap:12px;
+}
+
+.footer-col{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+/* PROFILE */
+.profile{
+  align-items:center;
+  text-align:center;
+}
+
+.profile-img{
+  width:110px;
+  aspect-ratio:1/1;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+.profile-text{
+  font-size:14px;
+  font-weight:600;
+  color:var(--text-muted);
+}
+
+.profile-text strong{
+  display:block;
+  color:var(--primary);
+}
+
+.linkedin{
+  margin-top:6px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-weight:700;
+  color:var(--primary);
+}
+
+.linkedin img{
+  width:18px;
+}
+
+/* KONTAK */
+.contact h4,
+.feedback h4{
+  font-size:18px;
+  font-weight:800;
+  color:var(--primary);
+}
+
+.contact-item{
+  display:flex;
+  align-items:center;
+  gap:10px;
+   font-size:13.5px;
+  font-weight:600;
+  color:var(--text-muted);
+  line-height:1.4;
+}
+.contact-item img{
+  width:18px;
+}
+
+
+
+/* =========================
+   GOOGLE FORM EMBED
+   ========================= */
+.gform-embed{
+  background: linear-gradient(180deg, #F5EBDD, #EFE4D6);
+  border-radius: 14px;
+  padding: 10px;
+  border: 1.5px solid rgba(46,42,114,.2);
+}
+
+.gform-embed iframe{
+  width: 100%;
+  height: 230px; /* DESKTOP */
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+}
+
+/* Mobile */
+@media (max-width:768px){
+  .gform-embed iframe{
+    height: 260px;
+  }
+}
+
+/* COPYRIGHT */
+.footer .copyright{
+  margin-top:32px;
+  text-align:center;
+  font-size:13px;
+  font-weight:700;
+  color:var(--text-muted);
+}
+
+/* RESPONSIVE */
+@media (max-width:900px){
+  .footer-inner{
+    grid-template-columns:1fr;
+    gap:18px;
+    text-align:center;
+  }
+
+  .btn-feedback{
+    align-self:center;
+  }
+}
+
+  /* =========================
+     MODAL / POPUP GAMBAR PETA
+     ========================= */
+  .modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-items: center;
+  background: rgba(0,0,0,0.85);
+  z-index: 9999;
+  padding: 20px;
+}
+.modal.show { display: grid; animation: fadeIn .15s ease; }
+@keyframes fadeIn { from{opacity:0} to{opacity:1} }
+
+.modal-box {
+  width: min(1200px, 96vw);
+  height: 95vh;          /* jangan full 100vh */
+  max-height: 95vh;
+  background: linear-gradient(135deg, #0b3c5d, #253468);
+  border-radius: 20px;
+  box-shadow: 0 30px 80px rgba(0,0,0,.6);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+/* MOBILE */
+@media (max-width:768px){
+  .modal-box { width: 100vw; height: 90vh; border-radius: 18px 18px 0 0; }
+  .modal-tools { bottom: 14px; right: 50%; transform: translateX(50%); }
+}
+
+/* HEADER */
+.modal-head {
+  flex-shrink: 0;   /* 🔥 INI PENTING BIAR GA KE POTONG */
+  padding: 16px 22px;
+  color: #fff;
+  background: rgba(255,255,255,.06);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   min-height: 64px;
+}
+
+
+.modal-head span{
+  font-size: clamp(14px, 2.5vw, 18px);
+  white-space: normal;
+  line-height: 1.3;
+}
+
+.modal-head h5 { margin: 0; font-size: 18px; color: #fff; }
+.btn-x {
+  background: rgba(255,255,255,.12);
+  border: none;
+  color: white;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 6; /* pastiin di atas gambar */
+}
+.btn-x:hover { background: #e11d48; }
+#modalImg{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: translate(0,0) scale(1);
+  transition: transform .1s ease;
+   cursor: move;
+}
+
+/* AREA GAMBAR */
+.modal-body {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background: rgba(251,244,233,0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  min-height: 0; /* 🔥 PENTING biar flex ga maksa tinggi */
+}
+
+
+  /* Link */
+  .a, .menu .item, .pill, .btn-more {
+  transition: color 0.3s ease, background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.menu .item:hover {
+  background: rgba(14,165,233,0.15);
+  color: var(--accent-2);
+}
+a:hover {
+  color: var(--accent);
+}
+
+  /* =========================
+     UTIL
+     ========================= */
+  .sr{position:absolute; left:-9999px}
+  .spacer{height:24px}
+  .arrow-down{display:inline-block; transform:translateY(1px)}
+  .narrow{max-width:900px; margin:0 auto}
+
+  /* =========================
+   RESPONSIVE UNTUK MOBILE
+   ========================= */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .menu .item {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 8vw, 42px);
+    line-height: 1.1;
+  }
+
+  .hero .sub {
+    font-size: 14px;
+  }
+
+  .hero .cta {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    padding: 8px 12px;
+  }
+
+  .brand img {
+    height: 28px;
+  }
+
+  .menu .item {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .hero h1 {
+    font-size: clamp(24px, 9vw, 36px);
+  }
+
+  .hero .sub {
+    font-size: 12px;
+  }
+
+  .hero .cta {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+
+  .title h2 {
+    font-size: clamp(18px, 5vw, 24px);
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px){
+  .modal {
+    padding: 0; /* ❗ jangan ada margin luar */
+  }
+
+  .modal-box {
+    width: 100vw;
+    height: 92vh;     /* jangan 100 */
+    max-height: 92vh;
+    border-radius: 18px 18px 0 0;
+  }
+}
+
+  .modal-head {
+    padding: 12px 14px;
+    font-size: 14px;
+    position: relative;
+  z-index: 5;
+  }
+
+  .modal-head span {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .modal-tools {
+    bottom: 14px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+</style>
+</head>
+<body>
+  <div id="progress-bar"></div>
+
+<!-- ========================= HEADER ========================= -->
+<header class="header" id="top">
+  <nav class="nav">
+
+    <div class="menu">
+      <a class="item active" data-goto="#hero" href="#hero">BERANDA</a>
+
+      <div class="item" id="btnPeta" aria-haspopup="true" aria-expanded="false">
+        PETA <span class="arrow-down">▾</span>
+        <div class="dropdown" role="menu" id="ddPeta">
+          <a href="map.html" role="menuitem">Peta Interaktif <span>↗</span></a>
+          <a href="#tematik" role="menuitem" data-scroll="#tematik">Peta Tematik <span>↓</span></a>
+        </div>
+      </div>
+
+      <a class="item" data-goto="#footer" href="#footer">KONTAK</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ========================= HERO ========================= -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+
+    <div class="hero-content">
+      <h1>
+        PETA<br>
+        BAHAYA<br>
+        BANJIR
+      </h1>
+
+      <p class="hero-sub">
+        KECAMATAN DEPOK, KABUPATEN SLEMAN<br>
+        DAERAH ISTIMEWA YOGYAKARTA
+      </p>
+
+      <a class="cta" id="btnEksplor" href="map.html">
+        EKSPLORASI PETA INTERAKTIF →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========================= PETA BAHAYA ========================= -->
+<section class="section" id="tematik">
+  <div class="container">
+    <div class="title">
+      <h2>PETA BAHAYA BANJIR KECAMATAN DEPOK</h2>
+      <p>
+Peta ini menyajikan informasi tingkat bahaya banjir di Kecamatan Depok yang dibagi menjadi tiga kelas, yaitu rendah, sedang, dan tinggi. Klasifikasi ini disusun untuk memberikan gambaran sebaran potensi banjir.
+</p>
+    </div>
+
+    <div class="grid1" id="gridPeta1">
+      <!-- 1 -->
+      <article class="card">
+        <div class="thumb"><img src="bahaya.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Bahaya Banjir Kecamatan Depok</h3>
+          <button class="pill" data-map="bahaya.png" data-title="Peta Bahaya Banjir Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+      </div>
+  </div>
+</section>
+      
+
+<!-- ========================= PETA PARAMETER ========================= -->
+<section class="section" id="parameter">
+  <div class="container">
+    <div class="title">
+      <h2>PETA PARAMETER BAHAYA BANJIR</h2>
+      <p>Peta Bahaya Banjir Kecamatan Depok disusun menggunakan paramater curah hujan, tutupan lahan, jarak dari sungai, kemiringan lereng, kerapatan sungai, ketinggian lahan, dan jenis tanah</p>
+    </div>
+    <div class="grid" id="gridPeta">
+<!-- 2 -->
+      <article class="card">
+        <div class="thumb"><img src="curahhujan.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Curah Hujan Kecamatan Depok</h3>
+          <button class="pill" data-map="curahhujan.png" data-title="Peta Curah Hujan Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+      <!-- 3 -->
+      <article class="card">
+        <div class="thumb"><img src="gunalahan.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Tutupan Lahan Kecamatan Depok</h3>
+          <button class="pill" data-map="gunalahan.png" data-title="Peta Tutupan Lahan Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+      <!-- 4 -->
+      <article class="card">
+        <div class="thumb"><img src="jarakdarisungai.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Jarak dari Sungai Kecamatan Depok</h3>
+          <button class="pill" data-map="jarakdarisungai.png" data-title="Peta Jarak dari Sungai Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+      <!-- 5 -->
+      <article class="card">
+        <div class="thumb"><img src="lereng.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Kemiringan Lereng Kecamatan Depok</h3>
+          <button class="pill" data-map="lereng.png" data-title="Peta Kemiringan Lereng Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+      <!-- 6 -->
+      <article class="card">
+        <div class="thumb"><img src="kerapatansungai.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Kerapatan Sungai Kecamatan Depok</h3>
+          <button class="pill" data-map="kerapatansungai.png" data-title="Peta Kerapatan Sungai Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+      <!-- 7 -->
+      <article class="card">
+        <div class="thumb"><img src="ketinggian.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Ketinggian Lahan Kecamatan Depok</h3>
+          <button class="pill" data-map="ketinggian.png" data-title="Peta Ketinggian Lahan Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+      <!-- 8 -->
+      <article class="card">
+        <div class="thumb"><img src="jenistanah.png" alt=""></div>
+        <div class="card-body">
+          <h3>Peta Jenis Tanah Kecamatan Depok</h3>
+          <button class="pill" data-map="jenistanah.png" data-title="Peta Jenis Tanah Kecamatan Depok">Lihat Peta  →</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="footer" id="footer">
+  <div class="footer-inner">
+
+    <!-- KIRI: FOTO + IDENTITAS -->
+    <div class="footer-col profile">
+      <img src="foto-kamu.jpg.jpeg" alt="Profil" class="profile-img">
+      <div class="profile-text">
+        <strong>Mahasiswa S-1 Program Studi<br>Teknik Geomatika</strong>
+        <span>Fakultas Teknologi Mineral dan Energi</span><br>
+        <span>UPN “Veteran” Yogyakarta</span>
+      </div>
+      <a href="https://www.linkedin.com/in/nafila-khoirunnisa-845315245"
+         target="_blank"
+         class="linkedin">
+        <img src="icon-linkedin.png" alt=""> LinkedIn
+      </a>
+    </div>
+
+    <!-- TENGAH: KONTAK -->
+    <div class="footer-col contact">
+      <h4>Kontak</h4>
+      <a href="https://wa.me/6287880450885" class="contact-item">
+        <img src="icon-wa.png" alt=""> +62 878-8045-0885
+      </a>
+      <a 
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=117220010@student.upnyk.ac.id"
+  target="_blank"
+  rel="noopener"
+  class="contact-item"
+>
+  <img src="icon-mail.png" alt="">
+  117220010@student.upnyk.ac.id
+</a>
+    </div>
+
+    <!-- KANAN: KRITIK & SARAN -->
+  <div class="footer-col feedback" id="feedback">
+    <div class="gform-embed">
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSezx-lcnrwR91G2k0jWrfXIIMp5RGXbMK0_5sDD4w9wr97apw/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        loading="lazy">
+        Memuat…
+      </iframe>
+    </div>
+
+  </div>
+  </div>
+
+  <div class="copyright">
+    © 2026 - 117220010 - Nafila Khoirunnisa. All rights reserved.
+  </div>
+</footer>
+
+<!-- ========================= MODAL ========================= -->
+<div id="modal" class="modal">
+
+  <div class="modal-box">
+    <div class="modal-head">
+      <span id="modaltitle">Judul Peta</span>
+      <button id="btnClose" class="btn-x">&times;</button>
+    </div>
+
+    <div class="modal-body" id="modalBody">
+      <img id="modalImg" src="" alt="Peta">
+
+      <div class="modal-tools">
+        <button class="tool-btn" id="zoomIn">+</button>
+        <button class="tool-btn" id="zoomOut">−</button>
+        <button class="tool-btn" id="resetZoom">⟳</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  // =========================
+  // Helper: smooth scroll (offset header)
+  // =========================
+  const header = document.querySelector('.header');
+  function smoothTo(hash){
+    const el = document.querySelector(hash);
+    if(!el) return;
+    const rect = el.getBoundingClientRect();
+    const top = window.scrollY + rect.top - (header.offsetHeight + 10);
+    window.scrollTo({top, behavior:'smooth'});
+  }
+
+  // menu anchor
+  document.querySelectorAll('[data-goto]').forEach(a=>{
+    a.addEventListener('click', (e)=>{ e.preventDefault(); smoothTo(a.getAttribute('data-goto')); });
+  });
+
+  // =========================
+  // Dropdown PETA
+  // =========================
+  const btnPeta = document.getElementById('btnPeta');
+  const ddPeta = document.getElementById('ddPeta');
+  btnPeta.addEventListener('click', (e)=>{
+    const isLink = e.target.closest('a');
+    if(isLink){
+      // if "Peta Tematik" chosen from dropdown and has data-scroll
+      const target = isLink.getAttribute('data-scroll');
+      if(target){ e.preventDefault(); ddPeta.classList.remove('show'); smoothTo(target); }
+      return; // allow "Peta Web" to navigate to map.html
+    }
+    e.preventDefault();
+    ddPeta.classList.toggle('show');
+  });
+  document.addEventListener('click', (e)=>{
+    if(!btnPeta.contains(e.target)) ddPeta.classList.remove('show');
+  });
+
+  // =========================
+  // Hero CTA hover micro-move
+  // =========================
+  const cta = document.getElementById('btnEksplor');
+  cta.addEventListener('mousemove', (e)=>{
+    const r = cta.getBoundingClientRect();
+    const x = (e.clientX - r.left - r.width/2)/r.width;
+    const y = (e.clientY - r.top - r.height/2)/r.height;
+    cta.style.transform = `translateY(${(-2*y).toFixed(1)}px) translateX(${(2*x).toFixed(1)}px)`;
+  });
+  cta.addEventListener('mouseleave', ()=>{ cta.style.transform='translateY(0)' });
+
+  // =========================
+  // IntersectionObserver: kartu muncul dari bawah
+  // =========================
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(en=>{ if(en.isIntersecting) en.target.classList.add('inview'); });
+  }, {threshold:.2});
+  document.querySelectorAll('.card').forEach(c=>io.observe(c));
+
+  // =========================
+  // FAQ accordion (awal: tertutup)
+  // =========================
+  document.querySelectorAll('.faq').forEach(f=>{
+    // start closed
+    f.classList.remove('open');
+    f.querySelector('.faq-content').style.display='none';
+    f.querySelector('.faq-sum').addEventListener('click', ()=>{
+      const isOpen = f.classList.contains('open');
+      document.querySelectorAll('.faq').forEach(x=>x.classList.remove('open'));
+      document.querySelectorAll('.faq .faq-content').forEach(x=>x.style.display='none');
+      if(!isOpen){
+        f.classList.add('open');
+        f.querySelector('.faq-content').style.display='block';
+      }
+    });
+  });
+
+  // =========================
+  // Jika klik link hash langsung (mis. dari dropdown)
+  // =========================
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click', (e)=>{
+      const to = a.getAttribute('href');
+      if(to.length>1){ e.preventDefault(); smoothTo(to); }
+    });
+  });
+
+  // Fokus keyboard ke dropdown
+  btnPeta.addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); ddPeta.classList.toggle('show'); }
+    if(e.key==='Escape'){ ddPeta.classList.remove('show'); btnPeta.focus(); }
+  });
+  // Scroll progress bar
+const progressBar = document.getElementById('progress-bar');
+window.addEventListener('scroll', () => {
+  let scrollTop = window.scrollY;
+  let docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  let progress = (scrollTop / docHeight) * 100;
+  progressBar.style.width = progress + "%";
+});
+const headerEl = document.querySelector('.header');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 10) {
+    headerEl.classList.add('scrolled');
+  } else {
+    headerEl.classList.remove('scrolled');
+  }
+});
+
+</script>
+<script>
+const modal = document.getElementById("modal");
+const modalImg = document.getElementById("modalImg");
+const modalTitle = document.getElementById("modaltitle");
+const btnClose = document.getElementById("btnClose");
+const zoomInBtn = document.getElementById("zoomIn");
+const zoomOutBtn = document.getElementById("zoomOut");
+const resetBtn = document.getElementById("resetZoom");
+const modalBody = document.getElementById("modalBody");
+
+let scale = 1;
+let posX = 0;
+let posY = 0;
+let isDragging = false;
+let startX, startY;
+
+/* OPEN MODAL */
+document.querySelectorAll(".pill[data-map]").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    modalImg.src = btn.dataset.map;
+    modalTitle.textContent = btn.dataset.title || "Peta";
+    modal.classList.add("show");
+    document.body.style.overflow = "hidden";
+    resetImage();
+  });
+});
+
+/* CLOSE */
+function closeModal(){
+  modal.classList.remove("show");
+  document.body.style.overflow = "";
+  setTimeout(()=>{ modalImg.src=""; },200);
+}
+btnClose.onclick = closeModal;
+modal.onclick = e => { if(e.target===modal) closeModal(); };
+document.onkeydown = e => { if(e.key==="Escape") closeModal(); };
+
+/* ZOOM */
+zoomInBtn.onclick = ()=> { scale += 0.2; updateTransform(); };
+zoomOutBtn.onclick = ()=> { scale = Math.max(0.5, scale - 0.2); updateTransform(); };
+resetBtn.onclick = resetImage;
+
+function resetImage(){
+  scale = 1;
+  posX = 0;
+  posY = 0;
+  updateTransform();
+}
+
+function updateTransform(){
+  modalImg.style.transform =
+    `translate(${posX}px, ${posY}px) scale(${scale})`;
+}
+
+/* DRAG / MOVE */
+modalBody.addEventListener("mousedown", e=>{
+  isDragging = true;
+  startX = e.clientX - posX;
+  startY = e.clientY - posY;
+  // HAPUS baris cursor grabbing
+});
+
+window.addEventListener("mouseup", ()=>{
+  isDragging = false;
+  // HAPUS baris cursor grab
+});
+
+window.addEventListener("mousemove", e=>{
+  if(!isDragging) return;
+  posX = e.clientX - startX;
+  posY = e.clientY - startY;
+  updateTransform();
+});
+
+
+/* TOUCH (HP) */
+modalBody.addEventListener("touchstart", e=>{
+  const t = e.touches[0];
+  startX = t.clientX - posX;
+  startY = t.clientY - posY;
+});
+modalBody.addEventListener("touchmove", e=>{
+  const t = e.touches[0];
+  posX = t.clientX - startX;
+  posY = t.clientY - startY;
+  updateTransform();
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Peta Interaktif Bahaya Banjir Kecamatan Depok, Kabupaten Sleman</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ICON -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- LEAFLET -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{background:rgba(251,244,233,0.92)}
+
+/* NAVBAR */
+.navbar{
+  height:48px;background:rgba(251,244,233,0.92);border-bottom:2px solid #000;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 16px;position:relative;z-index:1000
+}
+.judul{
+  font-weight:800;
+  line-height:1.2;
+  white-space:nowrap;
+
+  min-width:0;
+  flex-shrink:1;
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+
+  background: rgba(251,244,233,0.92);
+  border: 2px solid #1e88e5;
+  color: #1e88e5;
+
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: all 0.2s ease;
+}
+
+.info-btn i {
+  font-size: 16px;
+}
+
+.info-btn:hover {
+  background: #1e88e5;
+  color: rgba(251,244,233,0.92);
+}
+@media (max-width:768px){
+  .judul{
+    font-size: clamp(11px, 3.5vw, 15px);
+    max-width: 75%;
+  }
+}
+
+.home{font-size:18px;cursor:pointer}
+
+/* LAYOUT */
+.wrapper{
+  display:flex;
+  height:calc(100vh - 48px);
+  overflow:hidden; /* ⬅️ INI YANG KEHAPUS */
+}
+
+
+/* SIDEBAR */
+.sidebar{
+  width:340px;background:rgba(251,244,233,0.92);border-right:2px solid #000;
+  padding:16px;overflow-y:auto
+}
+.sidebar h4{margin:12px 0 6px}
+.input,select,.btn{
+  width:100%;border:2px solid #000;border-radius:16px;
+  padding:10px 14px;margin-bottom:10px;font-weight:600
+}
+.input{
+  width:100%;
+  border:2px solid #000;
+  border-radius:16px;
+  padding:10px 42px 10px 14px; /* ⬅ INI KUNCINYA */
+  margin-bottom:10px;
+  font-weight:600;
+
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.btn{background:rgba(251,244,233,0.92);cursor:pointer}
+.layer{display:flex;justify-content:space-between;align-items:center;margin:6px 0}
+.toggle{
+  width:42px;height:22px;background:#cfcfcf;border-radius:20px;position:relative
+}
+.toggle::after{
+  content:"";width:18px;height:18px;background:rgba(251,244,233,0.92);border-radius:50%;
+  position:absolute;top:2px;left:2px
+}
+.info-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 3000;
+}
+
+.info-box {
+  background: rgba(251,244,233,0.92);
+  width: 420px;          /* sedikit lebih lega dari 400 */
+  max-width: 90%;
+
+  max-height: 80vh;      /* BATAS TINGGI */
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  animation: fadeIn 0.2s ease;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+.close-info {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.info-content {
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+
+  overflow-y: auto;      /* SCROLL */
+}
+.info-content ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.info-content li {
+  margin-bottom: 10px;
+}
+.info-modal {
+  padding: 20px;     /* biar di HP ga mepet layar */
+}
+
+@keyframes fadeIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* SIDEBAR HEADER */
+.sidebar-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:12px;
+  font-weight:800;
+}
+#closeSidebar{
+  cursor:pointer;
+  font-size:18px;
+}
+
+/* SIDEBAR TRANSITION */
+.sidebar{
+  transition:transform .3s ease;
+}
+
+/* SIDEBAR CLOSED */
+.sidebar{
+  width:340px;
+  transform:translateX(0);
+  transition:transform .3s ease;
+}
+
+.wrapper.full .sidebar{
+  transform:translateX(-100%);
+  position:absolute;
+  left:0;
+}
+
+/* HAMBURGER */
+.hamburger{
+  position:absolute;
+  top:60px;
+  left:12px;
+  width:42px;
+  height:42px;
+  background:rgba(251,244,233,0.92);
+  border:2px solid #000;
+  border-radius:10px;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  z-index:1100;
+}
+.wrapper.full .hamburger{
+  display:flex;
+}
+/* CSS ISI SIDEBAR Search */
+#searchResult{
+  position:absolute;
+  top:52px;
+  left:0;
+  width:100%;
+  background:rgba(251,244,233,0.92);
+  border:2px solid #000;
+  border-radius:14px;
+  max-height:220px;
+  overflow-y:auto;
+  z-index:2000;
+  display:none;
+}
+
+.search-item{
+  padding:10px 14px;
+  cursor:pointer;
+  font-size:14px;
+  font-weight:600;
+  border-bottom:1px solid rgba(251,244,233,0.92);
+}
+
+.search-item:hover{
+  background:rgba(251,244,233,0.92);
+}
+
+#clearSearch{
+  position:absolute;
+  right:14px;
+  top:42%;
+  transform:translateY(-50%);
+  cursor:pointer;
+  font-size:16px;
+  color:#555;
+  display:none;
+}
+
+#clearSearch:hover{
+  color:#000;
+}
+#searchInput{
+  text-overflow:ellipsis;
+}
+/* kontrol layer */
+.toggle.active{
+  background:#2ecc71;
+}
+.toggle.active::after{
+  left:22px;
+}
+
+/* MAP FULL MODE */
+.wrapper.full .map{
+  width:100%;
+}
+
+/* MAP */
+.map{flex:1;position:relative}
+#map{width:100%;height:100%}
+
+/* TOOLBAR RIGHT */
+.toolbar{
+  position:absolute;top:16px;right:16px;
+  display:flex;flex-direction:column;gap:8px;z-index:500
+}
+.tool{
+  width:38px;height:38px;background:rgba(251,244,233,0.92);border:2px solid #000;
+  border-radius:10px;display:flex;align-items:center;justify-content:center;
+  cursor:pointer
+}
+
+/* OPACITY PANEL */
+#opacityPanel{
+  display:none;
+  position:absolute;
+  right:64px;
+  top:140px;
+  background:rgba(251,244,233,0.92);
+  border:2px solid #000;
+  border-radius:14px;
+  padding:10px 12px;
+  width:180px;
+  z-index:600;
+}
+
+/* Label */
+#opacityLabel{
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:8px;
+  display:block;
+}
+
+/* CHECKER BACKGROUND */
+#opacityPanel::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(45deg,rgba(251,244,233,0.92) 25%,transparent 25%),
+    linear-gradient(-45deg,rgba(251,244,233,0.92) 25%,transparent 25%),
+    linear-gradient(45deg,transparent 75%,rgba(251,244,233,0.92) 75%),
+    linear-gradient(-45deg,transparent 75%,rgba(251,244,233,0.92) 75%);
+  background-size:12px 12px;
+  background-position:0 0,0 6px,6px -6px,-6px 0;
+  opacity:0.3;
+  z-index:-1;
+  border-radius:12px;
+}
+
+/* RANGE RESET */
+#opacityRange{
+  -webkit-appearance:none;
+  appearance:none;
+  width:100%;
+  height:10px;
+  border-radius:10px;
+  outline:none;
+  cursor:pointer;
+
+  /* GRADIENT TIPIS → TEBAL */
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0.2) 40%,
+    rgba(0,0,0,0.6) 100%
+  );
+}
+
+/* THUMB */
+#opacityRange::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  appearance:none;
+  width:18px;
+  height:18px;
+  background:rgba(251,244,233,0.92);
+  border:2px solid #000;
+  border-radius:50%;
+  box-shadow:0 2px 6px rgba(0,0,0,.3);
+}
+
+#opacityRange::-moz-range-thumb{
+  width:18px;
+  height:18px;
+  background:rgba(251,244,233,0.92);
+  border:2px solid #000;
+  border-radius:50%;
+}
+#opacityPanel select{
+  width:100%;
+  border:2px solid #000;
+  border-radius:10px;
+  padding:6px 8px;
+  font-weight:600;
+  margin-bottom:8px;
+  background:rgba(251,244,233,0.92);
+}
+
+
+/* BOTTOM RIGHT */
+.bottom-ui{
+  position:absolute;
+  right:16px;
+  bottom:20px;
+  display:flex;align-items:flex-end;gap:10px;z-index:500
+}
+.right-stack{display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.coord{
+  background:rgba(251,244,233,0.92);border:2px solid #000;font-size:12px;padding:6px 10px
+}
+.coord{border-radius:8px;text-align:right}
+.basemap{
+  width:56px;
+  height:56px;
+  background:rgba(251,244,233,0.92);
+  border:2px solid #000;
+  border-radius:10px;
+  cursor:pointer;
+  overflow:hidden;
+}
+
+.basemap img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+/* BASEMAP PANEL */
+#basemapPanel{
+  position:absolute;
+  right:16px;
+  bottom:90px;
+  background:rgba(251,244,233,0.92);
+  border:2px solid #000;
+  border-radius:16px;
+  padding:10px;
+  display:none;
+  z-index:700;
+  width:200px;
+}
+
+#basemapPanel .bm-item{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  cursor:pointer;
+  margin-bottom:8px;
+}
+
+#basemapPanel img{
+  width:60px;
+  height:40px;
+  border-radius:8px;
+  border:2px solid #000;
+  object-fit:cover;
+}
+
+#basemapPanel span{
+  font-size:13px;
+  font-weight:700;
+}
+.basemap{
+  position: relative;   /* penting untuk overlay */
+}
+
+/* tulisan BASEMAP */
+.basemap-label{
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  backdrop-filter: blur(4px);
+  color: rgb(0, 0, 0);
+
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 6px;
+
+  pointer-events: none; /* klik tetap tembus */
+  letter-spacing: .5px;
+}
+/* LEGEND */
+.legend-layer{
+  margin-bottom:14px;
+  padding-bottom:10px;
+  border-bottom:1px dashed #ccc;
+}
+
+.legend-title{
+  font-weight:800;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:6px;
+}
+
+.legend-item{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:14px;
+  margin-left:22px;
+}
+
+.swatch{
+  width:16px;
+  height:16px;
+  border:1px solid #000;
+}
+/* ===============================
+   MOBILE SIDEBAR OVERLAY FIX
+================================ */
+
+@media (max-width: 768px){
+  /* saat sidebar terbuka */
+  body.sidebar-open .toolbar,
+  body.sidebar-open .bottom-ui,
+  body.sidebar-open .leaflet-control-zoom,
+  body.sidebar-open #opacityPanel,
+  body.sidebar-open #basemapPanel {
+    display: none !important;
+  }
+}
+@media (max-width: 768px){
+
+  /* sidebar di atas segalanya */
+  .sidebar{
+    position: absolute;
+    top: 48px;
+    left: 0;
+     height: calc(100vh - 48px); /* ⬅️ SISA LAYAR */
+    z-index: 1500;
+  }
+
+  /* KETIKA SIDEBAR TERBUKA */
+  body.sidebar-open .toolbar{
+    top: auto;
+    bottom: 20px;
+    right: 16px;
+  }
+
+  body.sidebar-open .leaflet-top{
+    top: auto !important;
+    bottom: 90px !important;
+  }
+
+  body.sidebar-open .bottom-ui{
+    bottom: 20px;
+  }
+
+  body.sidebar-open #opacityPanel{
+    top: auto;
+    bottom: 200px;
+    right: 16px;
+  }
+
+  body.sidebar-open #basemapPanel{
+    bottom: 150px;
+  }
+}
+/* ===============================
+   INFO BUTTON RESPONSIVE
+================================ */
+
+@media (max-width: 768px){
+
+  .info-btn span{
+    display: none;              /* sembunyikan teks */
+  }
+
+  .info-btn{
+    width: 34px;
+    height: 34px;
+    padding: 0;
+
+    border-radius: 50%;         /* jadi lingkaran */
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #1e88e5;
+    background: #1e88e5;
+    color: white;
+  }
+
+  .info-btn i{
+    font-size: 16px;
+  }
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="judul">PETA INTERAKTIF KECAMATAN DEPOK</div>
+
+  <div class="nav-buttons">
+    <a href="index.html" class="home">
+      <i class="fa-solid fa-house"></i>
+    </a>
+
+    <button id="infoBtn" class="info-btn">
+      <i class="fa-solid fa-circle-info"></i>
+      <span>Informasi</span>
+    </button>
+  </div>
+</div>
+
+<div class="wrapper">
+    
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <div class="sidebar-header">
+  <span>Menu</span>
+  <i class="fa-solid fa-xmark" id="closeSidebar"></i>
+</div>
+ <!-- isi sidebar -->
+  <h4>Cari Lokasi</h4>
+<div style="position:relative">
+  <input 
+    type="text" 
+    id="searchInput" 
+    class="input" 
+    placeholder="Cari lokasi (contoh: Depok Sleman)">
+
+  <!-- ✅ INI YANG DITAMBAH -->
+  <i class="fa-solid fa-xmark" id="clearSearch"></i>
+
+  <div id="searchResult"></div>
+</div>
+
+
+  <h4>Legenda & Filter</h4>
+<div id="legendFilter">
+<!-- legenda bahaya banjir -->
+<div class="legend-layer" data-layer="bahayabanjir">
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="bahayabanjir">
+    <span>Bahaya Banjir</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-bahaya="rendah">
+    <span class="swatch" style="background:#176e17"></span>
+    <span>Rendah</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-bahaya="sedang">
+    <span class="swatch" style="background:#e8bf1a"></span>
+    <span>Sedang</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-bahaya="tinggi">
+    <span class="swatch" style="background:#de1010"></span>
+    <span>Tinggi</span>
+  </div>
+  </div>
+
+<!-- legenda cura hujan -->
+ <div class="legend-layer" data-layer="curahhujan">
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="curahhujan">
+    <span>Curah Hujan</span>
+  </div>
+
+  <div class="legend-item">
+   <input type="checkbox" checked data-filter-curah="2000 - 2500 mm/tahun">
+    <span class="swatch" style="background:#8a8ac4"></span>
+    <span>2000 - 2500 mm/tahun</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-curah="2500 - 3000 mm/tahun">
+    <span class="swatch" style="background:#14147d"></span>
+    <span>2500 - 3000 mm/tahun</span>
+  </div>
+</div>
+
+<!-- legenda penggunaan lahan -->
+<div class="legend-layer" data-layer="gunalahan">
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="gunalahan">
+    <span>Tutupan Lahan</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Sungai">
+    <span class="swatch" style="background:#1E90FF"></span>
+    <span>Sungai</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Danau/Waduk/Embung">
+    <span class="swatch" style="background:#4AA3D8"></span>
+    <span>Danau/Waduk/Embung</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Sawah">
+    <span class="swatch" style="background:#B7E075"></span>
+    <span>Sawah</span>
+  </div>
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Perkebunan/Kebun">
+    <span class="swatch" style="background:#7FBF3F"></span>
+    <span>Kebun/Perkebunan</span>
+  </div>
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Bandar Udara">
+    <span class="swatch" style="background:#4D4D4D"></span>
+    <span>Bandar Udara</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Tegalan/Ladang">
+    <span class="swatch" style="background:#C2A66B"></span>
+    <span>Tegalan/Ladang</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Permukiman">
+    <span class="swatch" style="background:#E89B9B"></span>
+    <span>Permukiman</span>
+  </div>
+
+   <div class="legend-item">
+    <input type="checkbox" checked data-filter-gunalahan="Semak Belukar">
+    <span class="swatch" style="background:#8C9E5E"></span>
+    <span>Semak Belukar</span>
+  </div>
+</div>
+
+<!-- legenda kemiringan lereng -->
+<div class="legend-layer" data-layer="lereng">
+
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="lereng" >
+    <span>Kemiringan Lereng</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-lereng="0 - 8 % (datar)">
+    <span class="swatch" style="background:#206b23"></span>
+    <span>0 – 8 % (Datar)</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-lereng="8 - 15 % (landai)">
+    <span class="swatch" style="background:#87c554"></span>
+    <span>8 – 15 % (Landai)</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-lereng="15 - 25 % (agak curam)">
+    <span class="swatch" style="background:#e1e424"></span>
+    <span>15 – 25 % (Agak Curam)</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-lereng="25 - 40 % (curam)">
+    <span class="swatch" style="background:#cc8d04"></span>
+    <span>25 – 40 % (Curam)</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-lereng="> 40 % (sangat curam)">
+    <span class="swatch" style="background:#e41515"></span>
+    <span>&gt; 40 % (Sangat Curam)</span>
+  </div>
+
+</div>
+
+<!-- legenda jarak dari sungai -->
+<div class="legend-layer" data-layer="jarakdarisungai">
+
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="jarakdarisungai">
+    <span>Jarak dari Sungai</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-jarakdarisungai="0 - 25 m (dekat)">
+    <span class="swatch" style="background:#d10e04"></span>
+    <span>0 – 25 m (Dekat)</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-jarakdarisungai="25 - 100 m (sedang)">
+    <span class="swatch" style="background:#e9a21e"></span>
+    <span>25 – 100 m (Sedang)</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-jarakdarisungai="100 - 250 m (jauh)">
+    <span class="swatch" style="background:#37887d"></span>
+    <span>100 – 250 m (Jauh)</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-jarakdarisungai=">250 m (sangat jauh)">
+    <span class="swatch" style="background:#1f207c"></span>
+    <span>&gt; 250 m (Sangat Jauh)</span>
+  </div>
+</div>
+
+<!-- legenda kerapatan sungai -->
+<div class="legend-layer" data-layer="kerapatansungai">
+
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="kerapatansungai">
+    <span>Kerapatan Sungai</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-kerapatansungai="<0,62 km/km²">
+    <span class="swatch" style="background:#de1010"></span>
+    <span>&lt; 0,62 km/km²</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-kerapatansungai="0,62 - 1,44 km/km²">
+    <span class="swatch" style="background:#e99331"></span>
+    <span>0,62 - 1,44 km/km²</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-kerapatansungai="1,44 - 2,27 km/km²">
+    <span class="swatch" style="background:#ebd067"></span>
+    <span>1,44 – 2,27 km/km²</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-kerapatansungai="2,27 - 3,10 km/km²">
+    <span class="swatch" style="background:#4d967a"></span>
+    <span>2,27 – 3,10 km/km²</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-kerapatansungai=">3,10 km/km²">
+    <span class="swatch" style="background:#14147d"></span>
+    <span>&gt; 3,10 km/km²</span>
+  </div>
+
+</div>
+
+<!-- legenda jenis tanah -->
+<div class="legend-layer" data-layer="jenistanah">
+
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="jenistanah">
+    <span>Jenis Tanah</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-jenistanah="regosol">
+    <span class="swatch" style="background:#384a50"></span>
+    <span>Regosol</span>
+  </div>
+
+</div>
+
+<!-- legenda ketinggian -->
+ <div class="legend-layer" data-layer="ketinggian">
+
+  <div class="legend-title">
+    <input type="checkbox" checked data-toggle-layer="ketinggian">
+    <span>Ketinggian Lahan</span>
+  </div>
+
+<div class="legend-item">
+    <input type="checkbox" checked data-filter-ketinggian="50 - 100 m">
+    <span class="swatch" style="background:#87c554"></span>
+    <span>50 - 100 m</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-ketinggian="100 - 200 m">
+    <span class="swatch" style="background:#cc8d04"></span>
+    <span>100 - 200 m</span>
+  </div>
+
+  <div class="legend-item">
+    <input type="checkbox" checked data-filter-ketinggian=">200m">
+    <span class="swatch" style="background:#e41515"></span>
+    <span>&gt; 200 m</span>
+  </div>
+
+</div>
+</div>
+
+  <h4>Kontrol Layer</h4>
+
+<div class="layer">
+  <span>Bahaya Banjir</span>
+  <div class="toggle" data-layer="bahayabanjir"></div>
+</div>
+<div class="layer">
+  <span>Curah Hujan</span>
+  <div class="toggle" data-layer="curahhujan"></div>
+</div>
+<div class="layer">
+  <span>Tutupan Lahan</span>
+  <div class="toggle" data-layer="gunalahan"></div>
+</div>
+<div class="layer">
+  <span>Kemiringan Lereng</span>
+  <div class="toggle" data-layer="lereng"></div>
+</div>
+<div class="layer">
+  <span>Jarak dari Sungai</span>
+  <div class="toggle" data-layer="jarakdarisungai"></div>
+</div>
+<div class="layer">
+  <span>Kerapatan Sungai</span>
+  <div class="toggle" data-layer="kerapatansungai"></div>
+</div>
+<div class="layer">
+  <span>Ketinggian Lahan</span>
+  <div class="toggle" data-layer="ketinggian"></div>
+</div>
+<div class="layer">
+  <span>Jenis Tanah</span>
+  <div class="toggle" data-layer="jenistanah"></div>
+</div>
+<div class="layer">
+  <span>Batas Desa/Kelurahan</span>
+  <div class="toggle" data-layer="admin"></div>
+</div>
+<div class="layer">
+  <span>Sungai</span>
+  <div class="toggle" data-layer="sungai"></div>
+</div>
+
+  <button class="btn" onclick="window.location.href='analisis.html'">
+  Analisis
+</button>
+</div>
+
+<!-- HAMBURGER -->
+  <div class="hamburger" id="openSidebar">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+<!-- MAP -->
+<div class="map">
+  <div id="map"></div>
+
+  <!-- TOOLBAR -->
+  <div class="toolbar">
+    <div class="tool" id="zoomIn"><i class="fa fa-plus"></i></div>
+    <div class="tool" id="zoomOut"><i class="fa fa-minus"></i></div>
+    <div class="tool" id="locBtn"><i class="fa fa-location-crosshairs"></i></div>
+    <div class="tool" id="opacityBtn"><i class="fa fa-droplet"></i></div>
+  </div>
+
+  <!-- OPACITY -->
+  <div id="opacityPanel">
+  <label>Layer</label>
+  <select id="layerSelect">
+  <option value="bahayabanjir">Bahaya Banjir</option>
+  <option value="curahhujan">Curah Hujan</option>
+  <option value="gunalahan">Tutupan Lahan</option>
+  <option value="jarakdarisungai">Jarak dari Sungai</option>
+  <option value="lereng">Kemiringan Lereng</option>
+  <option value="kerapatansungai">Kerapatan Sungai</option>
+  <option value="ketinggian">Ketinggian Lahan</option>
+  <option value="jenistanah">Jenis Tanah</option>
+</select>
+
+  <label id="opacityLabel">Transparansi 100%</label>
+  <input type="range" id="opacityRange" min="0" max="1" step="0.01" value="1">
+</div>
+
+  <!-- BASEMAP PANEL -->
+<div id="basemapPanel">
+  <div class="bm-item" data-map="osm">
+    <img src="https://tile.openstreetmap.org/10/825/512.png">
+    <span>OSM</span>
+  </div>
+
+  <div class="bm-item" data-map="satellite">
+  <img src="satellite.jpg">
+  <span>Satelit</span>
+</div>
+
+  <div class="bm-item" data-map="topo">
+    <img src="https://tile.opentopomap.org/10/825/512.png">
+    <span>Topografi</span>
+  </div>
+
+  <div class="bm-item" data-map="medan">
+  <img src="medan.jpg">
+  <span>Medan (Relief)</span>
+</div>
+
+</div>
+
+  <!-- BOTTOM UI -->
+  <div class="bottom-ui">
+    <div class="coord" id="coord">Lintang -<br>Bujur -</div>
+    <div class="right-stack">
+      <div class="basemap" id="basemapBtn">
+  <img id="basemapThumb"
+       src="https://tile.openstreetmap.org/10/825/512.png"
+       alt="Basemap Preview">
+       <span class="basemap-label">BASEMAP</span>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<div id="infoModal" class="info-modal">
+  <div class="info-box">
+    <div class="info-header">
+      <span>Informasi Penggunaan Website</span>
+      <span id="closeInfo" class="close-info">&times;</span>
+    </div>
+
+    <div class="info-content">
+      <p><b>Peta Bahaya Banjir Kecamatan Depok</b></p>
+      <ul>
+    <li>Klik tombol <b>"EKSPLORASI PETA INTERAKTIF"</b> atau buka menu <b>"PETA"</b> lalu pilih <b>"PETA INTERAKTIF"</b> untuk mulai menjelajahi peta.</li>
+    
+    <li>Gunakan <b>Kontrol Layer</b> untuk menampilkan atau menyembunyikan layer data sesuai kebutuhan.</li>
+    
+    <li>Fitur <b>Cari Lokasi</b> memungkinkan Anda mencari lokasi dengan mengetik nama tempat yang ingin dituju.</li>
+    
+    <li><b>Legenda & Filter</b> membantu memahami arti warna/simbol pada layer aktif serta memungkinkan Anda menyalakan atau mematikan kelas tertentu untuk menyoroti informasi yang diinginkan.</li>
+    
+    <li>Gunakan <b>Transparansi</b> untuk mengatur transparansi layer, geser ke kanan (100%) agar layer terlihat jelas atau ke kiri (0%) agar lebih transparan.</li>
+    
+    <li>Pilih <b>Basemap</b> untuk mengganti tampilan dasar peta sesuai kebutuhan visualisasi.</li>
+    
+    <li>Fitur <b>Analisis</b> menampilkan hasil pengolahan data spasial, seperti tingkat bahaya banjir pada suatu area, untuk membantu memahami kondisi wilayah secara lebih mendalam.</li>
+    
+    <li>Klik pada area peta untuk melihat informasi detail mengenai Peta terkait di lokasi tersebut.</li>
+  </ul>
+    </div>
+  </div>
+</div>
+<script>
+/* MAP INIT */
+const map = L.map('map',{zoomControl:false})
+.setView([-7.76712,110.41105],13);
+
+/* BASEMAP */
+/* HILLSHADE (MEDAN TIMBUL) */
+const hillshade = L.tileLayer(
+  'https://services.arcgisonline.com/ArcGIS/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}',
+  {
+    opacity: 0.65,
+    attribution: 'Esri Elevation'
+  }
+);
+hillshade.setOpacity(0.75);
+const basemaps = {
+  osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
+  }),
+
+  satellite: L.tileLayer(
+    'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
+  ),
+
+  topo: L.tileLayer(
+    'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
+  ),
+
+  medan: L.layerGroup([
+    L.tileLayer(
+      'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
+    ),
+    hillshade
+  ])
+};
+
+let currentBasemap = basemaps.osm;
+currentBasemap.addTo(map);
+const basemapBtn   = document.getElementById('basemapBtn');
+const basemapPanel= document.getElementById('basemapPanel');
+const basemapThumb= document.getElementById('basemapThumb');
+
+const basemapThumbs = {
+  osm: 'https://tile.openstreetmap.org/10/825/512.png',
+  satellite: 'satellite.jpg',
+  topo: 'https://tile.opentopomap.org/10/825/512.png',
+  medan: 'medan.jpg'
+};
+
+/* buka / tutup panel */
+basemapBtn.onclick = () => {
+  basemapPanel.style.display =
+    basemapPanel.style.display === 'block' ? 'none' : 'block';
+};
+
+/* ganti basemap */
+document.querySelectorAll('#basemapPanel .bm-item').forEach(item=>{
+  item.onclick = () => {
+  const key = item.dataset.map;
+
+  map.removeLayer(currentBasemap);
+  currentBasemap = basemaps[key];
+  currentBasemap.addTo(map);
+
+  basemapThumb.src = basemapThumbs[key];
+  basemapPanel.style.display = 'none';
+};
+});
+
+/* klik luar → nutup */
+document.addEventListener('click',e=>{
+  if(!basemapPanel.contains(e.target) && !basemapBtn.contains(e.target)){
+    basemapPanel.style.display='none';
+  }
+});
+
+
+/* SCALE (ASLI LEAFLET) */
+L.control.scale({
+  position: 'bottomleft',
+  imperial: false
+}).addTo(map);
+
+/* ZOOM */
+zoomIn.onclick=()=>map.zoomIn();
+zoomOut.onclick=()=>map.zoomOut();
+
+/* COORDINATE */
+map.on('mousemove',e=>{
+  coord.innerHTML=`Lintang : ${e.latlng.lat.toFixed(5)}<br>Bujur : ${e.latlng.lng.toFixed(5)}`;
+});
+
+/* GEOJSON */
+/* ================= LAYERS ================= */
+    
+    const adminLayer      = L.layerGroup().addTo(map);
+    const sungaiLayer      = L.layerGroup().addTo(map);
+    const bahayabanjirLayer   = L.layerGroup().addTo(map);
+    const curahhujanLayer     = L.layerGroup();
+    const kerapatansungaiLayer  = L.layerGroup();
+    const jarakdarisungaiLayer = L.layerGroup();
+    const jenistanahLayer = L.layerGroup();
+    const gunalahanLayer = L.layerGroup();
+    const lerengLayer     = L.layerGroup();
+    const ketinggianLayer = L.layerGroup();
+/* ================= PANES ================= */
+
+map.createPane('adminPane');
+map.getPane('adminPane').style.zIndex = 490;
+
+map.createPane('sungaiPane');
+map.getPane('sungaiPane').style.zIndex = 500;
+
+map.createPane('bahayabanjirPane');
+map.getPane('bahayabanjirPane').style.zIndex = 500;
+
+map.createPane('curahhujanPane');
+map.getPane('curahhujanPane').style.zIndex = 500;
+
+map.createPane('jarakdarisungaiPane');
+map.getPane('jarakdarisungaiPane').style.zIndex = 500;
+
+map.createPane('gunalahanPane');
+map.getPane('gunalahanPane').style.zIndex = 500;
+
+map.createPane('kerapatansungaiPane');
+map.getPane('kerapatansungaiPane').style.zIndex = 500;
+
+map.createPane('lerengPane');
+map.getPane('lerengPane').style.zIndex = 500;
+
+map.createPane('jenistanahPane');
+map.getPane('jenistanahPane').style.zIndex = 500;
+
+map.createPane('ketinggianPane');
+map.getPane('ketinggianPane').style.zIndex = 500;
+
+// Layer GeoJSON
+//lereng
+let lerengDataAll = null;
+
+fetch("lereng.geojson")
+  .then(res => res.json())
+  .then(data => {
+    lerengDataAll = data;
+    renderLereng([]);
+  });
+function renderLereng(filters = []) {
+  lerengLayer.clearLayers();
+
+  L.geoJSON(lerengDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Kemiringan_Lereng.toLowerCase()
+      );
+    },
+
+    style:f=>{
+      const kelas = f.properties?.Kemiringan_Lereng?.toLowerCase();
+      const warna = {
+        '0 - 8 % (datar)': '#206b23',
+        '8 - 15 % (landai)': '#87c554',
+        '15 - 25 % (agak curam)': '#e1e424',
+        '25 - 40 % (curam)': '#cc8d04',
+        '> 40 % (sangat curam)': '#e41515'
+      };
+          return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Kemiringan Lereng</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(lerengLayer);
+}
+function syncLerengParent() {
+  const parent = document.querySelector('[data-toggle-layer="lereng"]');
+  const childs = [...document.querySelectorAll('[data-filter-lereng]')];
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-lereng]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-lereng]:checked')]
+      .map(i => i.dataset.filterLereng.toLowerCase());
+
+    renderLereng(aktif);
+    syncLerengParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentLereng = document.querySelector('[data-toggle-layer="lereng"]');
+
+parentLereng.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-lereng]');
+
+  // kalau parent di-cek → semua kelas ikut
+   childs.forEach(c => c.checked = parentLereng.checked);
+
+  const aktif = parentLereng.checked
+    ? [...childs].map(c => c.dataset.filterLereng.toLowerCase())
+    : [];
+
+  renderLereng(aktif);
+};
+
+
+//gunalahan
+
+let gunalahanDataAll = null;
+
+fetch("gunalahan.geojson")
+  .then(res => res.json())
+  .then(data => {
+    gunalahanDataAll = data;
+    renderGunaLahan([]);
+  });
+function renderGunaLahan(filters = []) {
+  gunalahanLayer.clearLayers();
+
+  L.geoJSON(gunalahanDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Tutupan_Lahan.toLowerCase()
+      );
+    },
+
+    style:f=>{
+      const kelas = f.properties?.Tutupan_Lahan?.toLowerCase();
+      const warna = {
+'bandar udara': '#4D4D4D',
+  'danau/waduk/embung': '#4AA3D8',
+  'sungai': '#1E90FF',
+  'perkebunan/kebun': '#7FBF3F',
+  'permukiman': '#E89B9B',
+  'sawah': '#B7E075',
+  'semak belukar': '#8C9E5E',
+  'tegalan/ladang': '#C2A66B'
+      };
+      return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Tutupan Lahan</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(gunalahanLayer);
+}
+function syncGunaLahanParent() {
+  const parent = document.querySelector('[data-toggle-layer="gunalahan"]');
+  const childs = [...document.querySelectorAll('[data-filter-gunalahan]')];
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-gunalahan]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-gunalahan]:checked')]
+      .map(i => i.dataset.filterGunalahan.toLowerCase());
+
+    renderGunaLahan(aktif);
+    syncGunaLahanParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentGunaLahan = document.querySelector('[data-toggle-layer="gunalahan"]');
+
+parentGunaLahan.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-gunalahan]');
+
+  // kalau parent di-cek → semua kelas ikut
+   childs.forEach(c => c.checked = parentGunaLahan.checked);
+
+  const aktif = parentGunaLahan.checked
+    ? [...childs].map(c => c.dataset.filterGunalahan.toLowerCase())
+    : [];
+
+  renderGunaLahan(aktif);
+};
+
+//jenistanah
+let jenistanahDataAll = null;
+
+fetch("jenistanah.geojson")
+  .then(res => res.json())
+  .then(data => {
+    jenistanahDataAll = data;
+    renderJenisTanah([]);
+  });
+function renderJenisTanah(filters = []) {
+  jenistanahLayer.clearLayers();
+
+  L.geoJSON(jenistanahDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Jenis_Tanah.toLowerCase()
+      );
+    },
+    style:f=>{
+      const kelas = f.properties?.Jenis_Tanah?.toLowerCase();
+      const warna = {
+        'regosol': '#384a50'
+      };
+      return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Jenis Tanah</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(jenistanahLayer);
+}
+function syncJenisTanahParent() {
+  const parent = document.querySelector('[data-toggle-layer="jenistanah"]');
+  const childs = [...document.querySelectorAll('[data-filter-jenistanah]')];
+
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-jenistanah]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-jenistanah]:checked')]
+      .map(i => i.dataset.filterJenistanah.toLowerCase());
+
+    renderJenisTanah(aktif);
+    syncJenisTanahParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentJenis = document.querySelector('[data-toggle-layer="jenistanah"]');
+
+parentJenis.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-jenistanah]');
+
+  // kalau parent di-cek → semua kelas ikut
+   childs.forEach(c => c.checked = parentJenis.checked);
+
+  const aktif = parentJenis.checked
+    ? [...childs].map(c => c.dataset.filterJenisTanah.toLowerCase())
+    : [];
+
+  renderJenisTanah(aktif);
+};
+
+  // jarakdarisungai
+  let jarakdarisungaiDataAll = null;
+
+fetch("jarakdarisungai.geojson")
+  .then(res => res.json())
+  .then(data => {
+    jarakdarisungaiDataAll = data;
+    renderJarakSungai([]);
+  });
+function renderJarakSungai(filters = []) {
+  jarakdarisungaiLayer.clearLayers();
+
+  L.geoJSON(jarakdarisungaiDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Jarak_dari_Sungai.toLowerCase()
+      );
+    },
+    style:f=>{
+      const kelas = f.properties?.Jarak_dari_Sungai?.toLowerCase();
+      const warna = {
+        '0 - 25 m (dekat)': '#d10e04',
+        '25 - 100 m (sedang)': '#e9a21e',
+        '100 - 250 m (jauh)': '#37887d',
+        '>250 m (sangat jauh)': '#1f207c'
+      };
+      return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Jarak dari Sungai</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(jarakdarisungaiLayer);
+}
+function syncJarakParent() {
+  const parent = document.querySelector('[data-toggle-layer="jarakdarisungai"]');
+  const childs = [...document.querySelectorAll('[data-filter-jarakdarisungai]')];
+
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-jarakdarisungai]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-jarakdarisungai]:checked')]
+      .map(i => i.dataset.filterJarakdarisungai.toLowerCase());
+
+    renderJarakSungai(aktif);
+    syncJarakParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentJarakSungai = document.querySelector('[data-toggle-layer="jarakdarisungai"]');
+
+parentJarakSungai.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-jarakdarisungai]');
+
+  // kalau parent di-cek → semua kelas ikut
+   childs.forEach(c => c.checked = parentJarakSungai.checked);
+
+  const aktif = parentJarakSungai.checked
+    ? [...childs].map(c => c.dataset.filterJarakDarisungai.toLowerCase())
+    : [];
+
+  renderJarakSungai(aktif);
+};
+
+
+//curahhujan
+let curahhujanDataAll = null;
+
+fetch("curahhujan.geojson")
+  .then(res => res.json())
+  .then(data => {
+    curahhujanDataAll = data;
+    renderCurahHujan([]);
+  });
+function renderCurahHujan(filters = []) {
+  curahhujanLayer.clearLayers();
+
+  L.geoJSON(curahhujanDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Curah_Hujan.toLowerCase()
+      );
+    },
+    style:f=>{
+      const kelas = f.properties?.Curah_Hujan?.toLowerCase();
+      const warna = {
+        '2000 - 2500 mm/tahun': '#8a8ac4',
+        '2500 - 3000 mm/tahun': '#14147d'
+      };
+      return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Curah Hujan</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(curahhujanLayer);
+}
+function syncCurahParent() {
+  const parent = document.querySelector('[data-toggle-layer="curahhujan"]');
+  const childs = [...document.querySelectorAll('[data-filter-curah]')];
+
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-curah]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-curah]:checked')]
+      .map(i => i.dataset.filterCurah.toLowerCase());
+
+    renderCurahHujan(aktif);
+    syncCurahParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentCurah = document.querySelector('[data-toggle-layer="curahhujan"]');
+
+parentCurah.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-curah]');
+
+  // kalau parent di-cek → semua kelas ikut
+   childs.forEach(c => c.checked = parentCurah.checked);
+
+  const aktif = parentCurah.checked
+    ? [...childs].map(c => c.dataset.filterCurah.toLowerCase())
+    : [];
+
+  renderCurahHujan(aktif);
+};
+
+// kerapatan sungai
+let kerapatansungaiDataAll = null;
+
+fetch("kerapatansungai.geojson")
+  .then(res => res.json())
+  .then(data => {
+    kerapatansungaiDataAll = data;
+    renderKerapatanSungai([]);
+  });
+function renderKerapatanSungai(filters = []) {
+  kerapatansungaiLayer.clearLayers();
+
+  L.geoJSON(kerapatansungaiDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Kerapatan_Sungai.toLowerCase()
+      );
+    },
+    style:f=>{
+      const kelas = f.properties?.Kerapatan_Sungai?.toLowerCase();
+      const warna = {
+        '<0,62 km/km²': '#de1010',
+        '0,62 - 1,44 km/km²': '#e99331',
+        '1,44 - 2,27 km/km²': '#ebd067',
+        '2,27 - 3,10 km/km²': '#4d967a',
+        '>3,10 km/km²': '#14147d'
+      };
+      return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Kerapatan Sungai</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(kerapatansungaiLayer);
+}
+function syncKerapatanParent() {
+  const parent = document.querySelector('[data-toggle-layer="kerapatansungai"]');
+  const childs = [...document.querySelectorAll('[data-filter-kerapatansungai]')];
+
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-kerapatansungai]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-kerapatansungai]:checked')]
+      .map(i => i.dataset.filterKerapatansungai.toLowerCase());
+
+    renderKerapatanSungai(aktif);
+    syncKerapatanParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentKerapatan = document.querySelector('[data-toggle-layer="kerapatansungai"]');
+
+parentKerapatan.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-kerapatansungai]');
+
+  // kalau parent di-cek → semua kelas ikut
+   childs.forEach(c => c.checked = parentKerapatan.checked);
+
+  const aktif = parentKerapatan.checked
+    ? [...childs].map(c => c.dataset.filterKerapatansungai.toLowerCase())
+    : [];
+
+  renderKerapatanSungai(aktif);
+};
+
+
+//bahayabanjir
+let bahayabanjirDataAll = null;
+
+fetch("bahayabanjir.geojson")
+  .then(res => res.json())
+  .then(data => {
+    bahayabanjirDataAll = data;
+    renderBahayaBanjir([]);
+  });
+function renderBahayaBanjir(filters = []) {
+  bahayabanjirLayer.clearLayers();
+
+  L.geoJSON(bahayabanjirDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Kelas_Bahaya_Banjir.toLowerCase()
+      );
+    },
+
+    style: f => {
+      const kelas = f.properties?.Kelas_Bahaya_Banjir?.toLowerCase();
+      const warna = {
+        rendah: '#176e17',
+        sedang: '#e8bf1a',
+        tinggi: '#de1010'
+      };
+      return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Bahaya Banjir</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(bahayabanjirLayer);
+}
+function syncBahayaParent() {
+  const parent = document.querySelector('[data-toggle-layer="bahayabanjir"]');
+  const childs = [...document.querySelectorAll('[data-filter-bahaya]')];
+
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-bahaya]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-bahaya]:checked')]
+      .map(i => i.dataset.filterBahaya.toLowerCase());
+
+    renderBahayaBanjir(aktif);
+    syncBahayaParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentBahaya = document.querySelector('[data-toggle-layer="bahayabanjir"]');
+
+parentBahaya.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-bahaya]');
+
+  // kalau parent di-cek → semua kelas ikut
+   childs.forEach(c => c.checked = parentBahaya.checked);
+
+  const aktif = parentBahaya.checked
+    ? [...childs].map(c => c.dataset.filterBahaya.toLowerCase())
+    : [];
+
+  renderBahayaBanjir(aktif);
+};
+
+    // sungai
+fetch("sungai.geojson")
+  .then(res => res.json())
+  .then(sungaiData => {
+    const sungaiLayerGeo = L.geoJSON(sungaiData, {
+      pane: 'sungaiPane',
+      style: {
+        color: '#2b6cff',
+        weight: 3,  
+        opacity: 0.9,
+        lineCap: 'round', 
+        lineJoin: 'round' 
+      },
+      onEachFeature: (feature, layer) => {
+        let html = '<div style="text-align:center;font-size:14px;">' +
+                   '<h3 style="margin:0 0 5px;">Detail Sungai</h3>';
+        for (const k in feature.properties) {
+          html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+        }
+        html += '</div>';
+        layer.bindPopup(html);
+      }
+    }).addTo(sungaiLayer);
+  });
+
+
+// admin
+fetch("admin.geojson")
+  .then(res => res.json())
+  .then(adminData => {
+    const adminLayerGeo = L.geoJSON(adminData, {
+      pane: 'adminPane',
+      style: { color: '#000000ff', weight: 1, fillOpacity: 0, dashArray: '4 3' },
+      onEachFeature: (feature, layer) => {
+        let html = '<div style="text-align:center;font-size:14px;">' +
+                   '<h3 style="margin:0 0 5px;">Detail Batas Desa/Kelurahan</h3>';
+        for (const k in feature.properties) {
+          html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+        }
+        // ✨ Tambahan tips interaksi
+  html += `<br><i style="color:#666;font-size:12px;">
+           Tips: Nonaktifkan layer <b>Batas Desa/Kelurahan</b> untuk melihat detail informasi dari layer lainnya.
+           </i>`;
+        html += '</div>';
+        layer.bindPopup(html);
+      }
+    }).addTo(adminLayer);
+  });
+
+    //ketinggian 
+ let ketinggianDataAll = null;
+
+fetch("ketinggian.geojson")
+  .then(res => res.json())
+  .then(data => {
+    ketinggianDataAll = data;
+    renderKetinggian([]);
+  });
+function renderKetinggian(filters = []) {
+  ketinggianLayer.clearLayers();
+
+  L.geoJSON(ketinggianDataAll,{
+    filter:f=>{
+      if(!filters.length) return true;
+      return filters.includes(
+        f.properties.Ketinggian_Lahan.toLowerCase()
+      );
+    },
+
+    style:f=>{
+      const kelas = f.properties?.Ketinggian_Lahan?.toLowerCase();
+      const warna = {
+        '50 - 100 m': '#87c554',
+        '100 - 200 m': '#cc8d04',
+        '>200m': '#e41515'
+      };
+          return {
+        weight: 0,
+        color: 'transparent',
+        fillColor: warna[kelas] || '#ccc',
+        fillOpacity: 0.7
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      let html = `<div style="text-align:center;font-size:14px;">
+        <h3 style="margin:0 0 5px;">Detail Ketinggian Lahan</h3>`;
+      for (const k in feature.properties) {
+        html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
+      }
+      html += `</div>`;
+      layer.bindPopup(html);
+    }
+  }).addTo(ketinggianLayer);
+}
+function syncKetinggianParent() {
+  const parent = document.querySelector('[data-toggle-layer="ketinggian"]');
+  const childs = [...document.querySelectorAll('[data-filter-ketinggian]')];
+  const checkedCount = childs.filter(c => c.checked).length;
+
+  // kalau SEMUA kelas aktif → parent ON
+  if (checkedCount === childs.length) {
+    parent.checked = true;
+  } 
+  // kalau ADA yang mati → parent OFF
+  else {
+    parent.checked = false;
+  }
+}
+
+document.querySelectorAll('[data-filter-ketinggian]').forEach(cb => {
+  cb.onchange = () => {
+    const aktif = [...document.querySelectorAll('[data-filter-ketinggian]:checked')]
+      .map(i => i.dataset.filterKetinggian.toLowerCase());
+
+    renderKetinggian(aktif);
+    syncKetinggianParent();
+  };
+});
+// EVENT CHECKBOX SUB JUDUL
+const parentketinggian = document.querySelector('[data-toggle-layer="ketinggian"]');
+
+parentketinggian.onchange = () => {
+  const childs = document.querySelectorAll('[data-filter-ketinggian]');
+
+  childs.forEach(c => c.checked = parentketinggian.checked);
+
+  const aktif = parentketinggian.checked
+    ? [...childs].map(c => c.dataset.filterKetinggian.toLowerCase())
+    : [];
+
+  renderKetinggian(aktif);
+};
+
+  
+    // Mapping id/value → layer
+const overlayLayers = { 
+   
+  admin: adminLayer, 
+  sungai: sungaiLayer, 
+  bahayabanjir: bahayabanjirLayer, 
+  curahhujan: curahhujanLayer, 
+  kerapatansungai: kerapatansungaiLayer, 
+  jarakdarisungai: jarakdarisungaiLayer, 
+  jenistanah: jenistanahLayer, 
+  gunalahan: gunalahanLayer, 
+  lereng: lerengLayer,
+  ketinggian: ketinggianLayer
+};
+
+function setupLegendSync(layerKey) {
+  const toggle = document.querySelector(`.toggle[data-layer="${layerKey}"]`);
+  const legend = document.querySelector(`.legend-layer[data-layer="${layerKey}"]`);
+  const parent = document.querySelector(`[data-parent="${layerKey}"]`);
+  const childs = [...document.querySelectorAll(`[data-child="${layerKey}"]`)];
+  const mapLayer = overlayLayers[layerKey];
+
+  if (!toggle || !mapLayer) return;
+
+  // STATUS AWAL
+  if (map.hasLayer(mapLayer)) {
+    toggle.classList.add('active');
+    legend && (legend.style.display = 'block');
+  } else {
+    legend && (legend.style.display = 'none');
+  }
+
+  // TOGGLE LAYER
+  toggle.onclick = () => {
+    const aktif = map.hasLayer(mapLayer);
+
+    if (aktif) {
+      map.removeLayer(mapLayer);
+      toggle.classList.remove('active');
+      legend && (legend.style.display = 'none');
+      parent && (parent.checked = false);
+      childs.forEach(c => c.checked = false);
+    } else {
+      map.addLayer(mapLayer);
+      toggle.classList.add('active');
+      legend && (legend.style.display = 'block');
+      parent && (parent.checked = true);
+      childs.forEach(c => c.checked = true);
+    }
+  };
+}
+
+/* OPACITY */
+opacityBtn.onclick = () => {
+  opacityPanel.style.display =
+    opacityPanel.style.display === "none" ? "block" : "none";
+};
+
+opacityRange.oninput = () => {
+  const v = parseFloat(opacityRange.value);
+  opacityLabel.innerText = `Transparansi ${Math.round(v * 100)}%`;
+
+  const key = layerSelect.value;
+  const layer = overlayLayers[key];
+
+  if (!layer) return;
+
+  layer.eachLayer(l => {
+    if (l.setStyle) {
+      l.setStyle({ fillOpacity: v });
+    }
+  });
+};
+/* GPS AKURAT */
+let userMarker=null, accCircle=null;
+
+locBtn.onclick = () => {
+  if (!navigator.geolocation) {
+    alert("Browser tidak mendukung GPS");
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    pos => {
+      const { latitude, longitude, accuracy } = pos.coords;
+
+      if (userMarker) map.removeLayer(userMarker);
+      if (accCircle) map.removeLayer(accCircle);
+
+      userMarker = L.circleMarker([latitude, longitude], {
+        radius: 8,
+        color: "#1a73e8",
+        fillColor: "#1a73e8",
+        fillOpacity: 1
+      }).addTo(map);
+
+      accCircle = L.circle([latitude, longitude], {
+        radius: accuracy,
+        color: "#1a73e8",
+        fillOpacity: 0.15
+      }).addTo(map);
+
+      map.flyTo([latitude, longitude], 18, { duration: 1.2 });
+    },
+    err => alert("Aktifkan GPS & izin lokasi"),
+    {
+      enableHighAccuracy: true,
+      timeout: 15000,
+      maximumAge: 0
+    }
+  );
+};
+
+/* ===============================
+   SIDEBAR TOGGLE (FINAL FIX)
+================================ */
+
+const sidebar = document.querySelector('.sidebar');
+const wrapper = document.querySelector('.wrapper');
+const openBtn = document.getElementById('openSidebar');
+const closeBtn = document.getElementById('closeSidebar');
+
+/* CLOSE SIDEBAR */
+closeBtn.addEventListener('click', () => {
+  wrapper.classList.add('full');
+  openBtn.style.display = 'flex';
+  setTimeout(() => map.invalidateSize(), 300);
+});
+
+/* OPEN SIDEBAR */
+openBtn.addEventListener('click', () => {
+  wrapper.classList.remove('full');
+  openBtn.style.display = 'none';
+  setTimeout(() => map.invalidateSize(), 300);
+});
+
+/* ===============================
+   SEARCH LOCATION (NOMINATIM)
+================================ */
+
+const searchInput  = document.getElementById('searchInput');
+const searchResult = document.getElementById('searchResult');
+
+let searchMarker = null;
+
+searchInput.addEventListener('input', async () => {
+  const q = searchInput.value.trim();
+  if (q.length < 3) {
+    searchResult.style.display = 'none';
+    return;
+  }
+
+  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5`;
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  searchResult.innerHTML = '';
+  if (!data.length) {
+    searchResult.style.display = 'none';
+    return;
+  }
+
+  data.forEach(loc => {
+    const div = document.createElement('div');
+    div.className = 'search-item';
+    div.innerText = loc.display_name;
+
+    div.onclick = () => {
+      const lat = parseFloat(loc.lat);
+      const lon = parseFloat(loc.lon);
+
+      if (searchMarker) map.removeLayer(searchMarker);
+
+      searchMarker = L.marker([lat, lon])
+        .addTo(map)
+        .bindPopup(`<b>${loc.display_name}</b>`)
+        .openPopup();
+
+      map.flyTo([lat, lon], 17, { duration: 1.2 });
+
+      searchResult.style.display = 'none';
+      searchInput.value = loc.display_name;
+    };
+
+    searchResult.appendChild(div);
+  });
+
+  searchResult.style.display = 'block';
+});
+
+/* Klik di luar → hasil hilang */
+document.addEventListener('click', e => {
+  if (!searchInput.contains(e.target) && !searchResult.contains(e.target)) {
+    searchResult.style.display = 'none';
+  }
+});
+const clearBtn = document.getElementById('clearSearch');
+
+searchInput.addEventListener('input', () => {
+  clearBtn.style.display = searchInput.value ? 'block' : 'none';
+});
+
+clearBtn.onclick = () => {
+  searchInput.value = '';
+  searchResult.style.display = 'none';
+  clearBtn.style.display = 'none';
+
+  if (searchMarker) {
+    map.removeLayer(searchMarker);
+    searchMarker = null;
+  }
+};
+Object.keys(overlayLayers).forEach(setupLegendSync);
+/* ===============================
+   RESPONSIVE SIDEBAR AUTO MODE
+================================ */
+
+function handleResponsiveSidebar(){
+  if (window.innerWidth <= 768){
+    // MODE HP
+    wrapper.classList.add('full');
+    openBtn.style.display = 'flex';  
+  } else {
+    // MODE LAPTOP
+    wrapper.classList.remove('full'); 
+    openBtn.style.display = 'none';  
+  }
+
+  setTimeout(() => map.invalidateSize(), 300);
+}
+const infoBtn = document.getElementById("infoBtn");
+const infoModal = document.getElementById("infoModal");
+const closeInfo = document.getElementById("closeInfo");
+
+infoBtn.onclick = () => {
+  infoModal.style.display = "flex";
+};
+
+closeInfo.onclick = () => {
+  infoModal.style.display = "none";
+};
+
+infoModal.onclick = (e) => {
+  if (e.target === infoModal) {
+    infoModal.style.display = "none";
+  }
+};
+
+
+handleResponsiveSidebar();
+window.addEventListener('resize', handleResponsiveSidebar);
+
+</script>
+
+</body>
+</html>
