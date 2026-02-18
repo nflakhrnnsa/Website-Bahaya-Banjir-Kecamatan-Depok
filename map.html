@@ -1796,14 +1796,13 @@ fetch("sungai.geojson")
         lineJoin: 'round' 
       },
       onEachFeature: (feature, layer) => {
-        let html = '<div style="text-align:center;font-size:14px;">' +
-                   '<h3 style="margin:0 0 5px;">Detail Sungai</h3>';
-        for (const k in feature.properties) {
-          html += `<b>${k}:</b> ${feature.properties[k]}<br>`;
-        }
-        html += '</div>';
-        layer.bindPopup(html);
-      }
+  const html = `
+    <div style="text-align:center;font-size:14px;">
+      <h3 style="margin:0;">Sungai</h3>
+    </div>
+  `;
+  layer.bindPopup(html);
+}
     }).addTo(sungaiLayer);
   });
 
@@ -2173,3 +2172,4 @@ window.addEventListener('resize', handleResponsiveSidebar);
 
 </body>
 </html>
+
