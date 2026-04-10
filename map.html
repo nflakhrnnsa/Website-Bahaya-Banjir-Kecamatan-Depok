@@ -1279,12 +1279,12 @@ function renderGunaLahan(filters = []) {
     filter:f=>{
       if(!filters.length) return true;
       return filters.includes(
-        f.properties.Tutupan_Lahan.toLowerCase()
+        f.properties.Penggunaan_Lahan.toLowerCase()
       );
     },
 
     style:f=>{
-      const kelas = f.properties?.Tutupan_Lahan?.toLowerCase();
+      const kelas = f.properties?.Penggunaan_Lahan?.toLowerCase();
       const warna = {
 'bandar udara': '#4D4D4D',
   'danau/waduk/embung': '#4AA3D8',
