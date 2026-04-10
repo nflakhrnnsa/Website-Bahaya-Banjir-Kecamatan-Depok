@@ -416,7 +416,7 @@ th{
 
   /* SEMBUNYIKAN KOLOM TIDAK KRUSIAL */
   #banjirTable th:nth-child(2),
-  #banjirTable td:nth-child(2),  /* Tutupan Lahan */
+  #banjirTable td:nth-child(2),  /* Penggunaan Lahan */
 
   #banjirTable th:nth-child(3),
   #banjirTable td:nth-child(3),  /* Kerapatan Sungai */
@@ -564,7 +564,7 @@ th{
         <thead>
           <tr>
             <th>No</th>
-            <th>Tutupan Lahan</th>
+            <th>Penggunaan Lahan</th>
             <th>Kerapatan Sungai</th>
             <th>Jenis Tanah</th>
             <th>Jarak dari Sungai</th>
@@ -634,7 +634,7 @@ th{
     // ===== Konfigurasi kolom & grup =====
     const COLS = {
       no: "No",
-      lahan: "Tutupan Lahan",
+      lahan: "Penggunaan Lahan",
       kerapatan: "Kerapatan Sungai",
       tanah: "Jenis Tanah",
       jarak: "Jarak dari Sungai",
@@ -649,7 +649,7 @@ th{
 
     // Definisi parameter (nama + hue dasar untuk warna)
     const PARAMS = [
-  {key: COLS.lahan,        label:"Tutupan Lahan",        hue:145}, // hijau
+  {key: COLS.lahan,        label:"Penggunaan Lahan",        hue:145}, // hijau
   {key: COLS.lereng,       label:"Kemiringan Lereng",    hue:35},  // oranye
   {key: COLS.tanah,        label:"Jenis Tanah",          hue:275}, // ungu
   {key: COLS.hujan,        label:"Curah Hujan",          hue:210}, // biru
@@ -737,7 +737,7 @@ th{
   data: null,
   title: "No",
   render: (data, type, row, meta) => meta.row + 1
-},          { data: COLS.lahan, title:"Tutupan Lahan" },
+},          { data: COLS.lahan, title:"Penggunaan Lahan" },
           { data: COLS.kerapatan, title:"Kerapatan Sungai" },
           { data: COLS.tanah, title:"Jenis Tanah" },
           { data: COLS.jarak, title:"Jarak dari Sungai" },
