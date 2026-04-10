@@ -1,4 +1,4 @@
-﻿No,Tutupan Lahan,Curah Hujan,Kerapatan Sungai,Jarak dari Sungai,Ketinggian Lahan,Kemiringan Lereng,Jenis Tanah,Kelas Bahaya Banjir,Desa/Kelurahan,Luas Km²
+﻿No,Penggunaan Lahan,Curah Hujan,Kerapatan Sungai,Jarak dari Sungai,Ketinggian Lahan,Kemiringan Lereng,Jenis Tanah,Kelas Bahaya Banjir,Desa/Kelurahan,Luas Km²
 0,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",>250m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.011098
 1,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",25 - 100 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.000232
 2,Permukiman,2500 - 3000 mm/tahun,"<0,62 km/km²",100 - 250 m,100 - 200 m,0 - 8 %,Regosol,Tinggi,Condongcatur,0.005002
